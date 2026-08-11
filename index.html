@@ -1,224 +1,319 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vôlei 5x1 — Gestão Tática, Rotações & Scout Profissional</title>
+  <meta name="description" content="O aplicativo definitivo para treinadores e analistas de vôlei. Gerencie rotações 5x1, faça scout em tempo real e exporte relatórios em PDF.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Curriculo - Jeferson Casagrande de Souza</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
-
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .gradient-hero {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #1e3a8a 100%);
+    }
+    .gradient-card {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+    }
+  </style>
 </head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-500 selection:text-white">
 
-<body id="page-top">
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-blue-600 text-white font-black text-xl flex items-center justify-center shadow-lg shadow-blue-500/30">
+          5x1
+        </div>
+        <div>
+          <span class="text-lg font-bold text-white tracking-tight">Vôlei 5x1</span>
+          <span class="text-xs bg-blue-500/20 text-blue-400 font-semibold px-2 py-0.5 rounded-full ml-2 border border-blue-500/30">Pro</span>
+        </div>
+      </div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Jeferson Casagrande de Souza</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/perfil.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#Sobre">Sobre</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#Educação">Educação</a>
-        </li><li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#Experiência">Experiência</a>
-        </li>
-       
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#Habilidades">Habilidades</a>
-        </li>
-      </ul>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#recursos" class="hover:text-blue-400 transition-colors">Recursos</a>
+        <a href="#tatica" class="hover:text-blue-400 transition-colors">Sistema 5x1</a>
+        <a href="#scout" class="hover:text-blue-400 transition-colors">Scout & PDF</a>
+        <a href="#depoimentos" class="hover:text-blue-400 transition-colors">Depoimentos</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="/" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shadow-lg shadow-blue-600/30 transition-all hover:scale-[1.02] active:scale-[0.98]">
+          Abrir Aplicativo
+        </a>
+      </div>
     </div>
-  </nav>
+  </header>
 
-  <div class="container-fluid p-0">
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden gradient-hero pt-20 pb-28 border-b border-slate-800">
+    <!-- Background Glow -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-[120px] pointer-events-none"></div>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Sobre">
-      <div class="w-100">
-        <h1 class="mb-0">Jeferson
-          <span class="text-primary">Casagrande de Souza</span>
-        </h1>
-      <div class="subheading mb-5">09/12/1994 - 25 anos, solteiro. </div>
-        <div class="subheading mb-5">Rua Rio Gurupi, 84 · Jardim Novo Oásis, Maringá-PR, 87043-587 · (44) 99165-4078 ·
-          <a href="mailto:jefersoncasagrandedesouza@gmail.com">jefersoncasagrandedesouza@gmail.com</a>
-        </div>
-        <div>Estou buscando colocação no mercado de trabalho na área de TI.</div>
-        <p class="lead mb-5"></p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/jeferson-casagrande-2ba3831a9/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/JEFERSON-CASAGRANDE">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.instagram.com/jefcasagrande/">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://www.facebook.com/profile.php?id=100002707282067">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Educação">
-      <div class="w-100">
-        <h2 class="mb-5">Educação</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">UNIFCV</h3>
-            <div class="subheading mb-3">Análise e Desenvolvimento de Sistemas</div>
-            <p>Tecnólogo</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Fevereiro 2020 - Presente</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Senai - CTM</h3>
-            <div class="subheading mb-3">Mecânico de manutenção de máquinas industriais</div>
-            <p>Aprendizagem</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Março 2014 - Julho 2015</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Senai</h3>
-            <div class="subheading mb-3">Técnico em Eletrotécnica</div>
-            <p>Técnico</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Fevereiro 2010 - Novembro 2011</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="Experiência">
-      <div class="w-100">
-        <h2 class="mb-5">Experiência</h2>
-    
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Auxiliar de manutenção industrial</h3>
-            <div class="subheading mb-3">Crivialli</div>
-            <p>Auxiliar nas atividades do mecânico e eletricista;
-              Organização do setor;
-              Analisar problemas ocorridos, propondo e implantando soluções;
-              Propor melhorias em processos;
-              Realizar manutenções em geral.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Julho 2015 - Presente</span>
-          </div>
-        </div>
-    
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Aprendiz de mecânico de manutenção</h3>
-            <div class="subheading mb-3">Crivialli</div>
-            <p>Responsável por acompanhar o mecânico em sua rotina de trabalho, o auxiliando quando necessário.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Março 2014 - Julho 2015</span>
-          </div>
-        </div>
-    
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Repositor</h3>
-            <div class="subheading mb-3">Distribuidora Millenium</div>
-            <p>Responsável pelo recebimento de mercadorias, fazer verificação de produtos em falta e organização nos
-              corredores de
-              separação.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Abril 2012 - Novembro 2013</span>
-          </div>
-        </div>
-    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-semibold mb-8">
+        <i data-lucide="zap" class="w-4 h-4"></i>
+        <span>Plataforma completa de Inteligência Tática para Voleibol</span>
       </div>
 
-    </section>
+      <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-none mb-6 max-w-4xl mx-auto">
+        Acelere a Gestão Tática e o <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-300 to-indigo-300">Scout em Tempo Real</span>
+      </h1>
 
+      <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
+        Controle rotações do sistema 5x1, side-outs, erros coletivos e métricas individuais diretamente da quadra. Exporte relatórios em PDF instantaneamente.
+      </p>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Habilidades">
-      <div class="w-100">
-        <h2 class="mb-5">Habilidades</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Trabalho em equipe</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Flexibilidade</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Bom relacionamento</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Equilíbrio emocional</li>
-          <li>
-              <i class="fa-li fa fa-check"></i>
-              Ética</li>
-          <li>
-              <i class="fa-li fa fa-check"></i>
-              Paciência</li>
-        </ul>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
+        <a href="/" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-base shadow-xl shadow-blue-600/30 transition-all flex items-center justify-center gap-2 hover:scale-[1.02]">
+          <span>Acessar o App Gratuitamente</span>
+          <i data-lucide="arrow-right" class="w-5 h-5"></i>
+        </a>
+        <a href="#recursos" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-base border border-slate-700 transition-all">
+          Ver Recursos
+        </a>
       </div>
-    </section>
 
-    <hr class="m-0">
+      <!-- App Preview Graphic -->
+      <div class="mt-16 max-w-5xl mx-auto rounded-2xl p-2 bg-gradient-to-b from-slate-700/50 to-slate-900/50 border border-slate-700/60 shadow-2xl backdrop-blur-xl">
+        <div class="rounded-xl overflow-hidden bg-slate-900 border border-slate-800 p-4 sm:p-8 text-left">
+          <div class="flex items-center justify-between pb-4 mb-6 border-b border-slate-800">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-rose-500"></span>
+              <span class="w-3 h-3 rounded-full bg-amber-500"></span>
+              <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+              <span class="text-xs text-slate-400 font-mono ml-2">app.volei5x1.com — Interface Tática</span>
+            </div>
+            <span class="text-xs font-semibold px-2.5 py-1 bg-emerald-500/10 text-emerald-400 rounded-md border border-emerald-500/20 flex items-center gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+              Partida Ativa
+            </span>
+          </div>
 
-    <hr class="m-0">
+          <!-- Mock Court Display -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="md:col-span-2 bg-blue-950/40 border border-blue-900/50 rounded-xl p-5 flex flex-col justify-between min-h-[260px]">
+              <div>
+                <div class="flex justify-between items-center mb-4">
+                  <span class="text-xs font-bold text-blue-300 uppercase tracking-wider">Quadra Tática & Posições</span>
+                  <span class="text-xs font-bold text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded border border-amber-400/20">Levantador na P1 (Entrada de Rede P4)</span>
+                </div>
+                <div class="grid grid-cols-3 gap-3 text-center">
+                  <div class="p-3 bg-slate-800/80 rounded-lg border border-slate-700">
+                    <span class="text-[10px] text-slate-400 block font-bold">P4 (Ataque)</span>
+                    <span class="text-sm font-extrabold text-white">Ponteiro 1 (#7)</span>
+                  </div>
+                  <div class="p-3 bg-slate-800/80 rounded-lg border border-slate-700">
+                    <span class="text-[10px] text-slate-400 block font-bold">P3 (Rede)</span>
+                    <span class="text-sm font-extrabold text-white">Central 1 (#12)</span>
+                  </div>
+                  <div class="p-3 bg-slate-800/80 rounded-lg border border-slate-700">
+                    <span class="text-[10px] text-slate-400 block font-bold">P2 (Saída)</span>
+                    <span class="text-sm font-extrabold text-white">Oposto (#9)</span>
+                  </div>
+                  <div class="p-3 bg-slate-800/80 rounded-lg border border-slate-700">
+                    <span class="text-[10px] text-slate-400 block font-bold">P5 (Defesa)</span>
+                    <span class="text-sm font-extrabold text-white">Ponteiro 2 (#4)</span>
+                  </div>
+                  <div class="p-3 bg-slate-800/80 rounded-lg border border-slate-700">
+                    <span class="text-[10px] text-slate-400 block font-bold">P6 (Defesa)</span>
+                    <span class="text-sm font-extrabold text-blue-400">Líbero (#10)</span>
+                  </div>
+                  <div class="p-3 bg-blue-600/30 rounded-lg border border-blue-500/50">
+                    <span class="text-[10px] text-blue-300 block font-bold">P1 (Saque)</span>
+                    <span class="text-sm font-extrabold text-white">Levantador (#1)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-  </div>
+            <!-- Mock Stats -->
+            <div class="bg-slate-800/50 border border-slate-700/60 rounded-xl p-5 flex flex-col justify-between">
+              <div>
+                <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Scout Rápido do Set</h4>
+                <div class="space-y-3">
+                  <div>
+                    <div class="flex justify-between text-xs mb-1">
+                      <span class="text-slate-300">Ataques Eficientes</span>
+                      <span class="font-bold text-emerald-400">68%</span>
+                    </div>
+                    <div class="w-full bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                      <div class="bg-emerald-400 h-full w-[68%]"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex justify-between text-xs mb-1">
+                      <span class="text-slate-300">Passe A/B (Aproveitamento)</span>
+                      <span class="font-bold text-blue-400">82%</span>
+                    </div>
+                    <div class="w-full bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                      <div class="bg-blue-400 h-full w-[82%]"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex justify-between text-xs mb-1">
+                      <span class="text-slate-300">Pontos de Bloqueio</span>
+                      <span class="font-bold text-indigo-400">7 Pts</span>
+                    </div>
+                    <div class="w-full bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                      <div class="bg-indigo-400 h-full w-[55%]"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pt-4 border-t border-slate-700/60 flex items-center justify-between text-xs text-slate-400">
+                <span>Relatório PDF Pronto</span>
+                <i data-lucide="file-text" class="w-4 h-4 text-emerald-400"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Features Grid -->
+  <section id="recursos" class="py-24 bg-slate-900 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-xs font-bold text-blue-400 uppercase tracking-widest mb-3">Recursos Táticos</h2>
+        <p class="text-3xl sm:text-4xl font-extrabold text-white">Tudo o que a sua comissão técnica precisa à beira da quadra</p>
+      </div>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 border border-blue-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+            <i data-lucide="rotate-cw" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Rotações 5x1 Automáticas</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Acompanhe o rodízio em sentido horário, posições táticas (P1 a P6), posições de troca de rede e posicionamento de recepção de saque.
+          </p>
+        </div>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+        <!-- Card 2 -->
+        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+            <i data-lucide="target" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Scout Individual & Coletivo</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Registre saques, ataques, bloqueios, passes e defesas por atleta em poucos toques, além de erros coletivos (invasão, 4 toques, rotação).
+          </p>
+        </div>
 
+        <!-- Card 3 -->
+        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+            <i data-lucide="file-text" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Exportação em PDF</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Gere relatórios completos e profissionais ao final da partida para compartilhar com comissão técnica e jogadores.
+          </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 border border-amber-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+            <i data-lucide="users" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Gestão de Substituições & Líbero</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Realize trocas rápidas com banco de reservas e entrada automática do líbero nas posições de fundo de quadra.
+          </p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-rose-500/10 text-rose-400 border border-rose-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+            <i data-lucide="history" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Histórico Salvo Localmente</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Suas partidas são salvas automaticamente e ficam armazenadas com segurança no navegador para consulta posterior.
+          </p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 border border-purple-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+            <i data-lucide="undo-2" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Controle de Desfazer (Undo)</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Corrija pontos marcados por engano a qualquer instante sem perder o histórico do set nem o controle das rotações.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials / Quote -->
+  <section id="depoimentos" class="py-20 bg-slate-950 border-b border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <div class="w-12 h-12 bg-blue-600/20 text-blue-400 rounded-full flex items-center justify-center mx-auto mb-6">
+        <i data-lucide="quote" class="w-6 h-6"></i>
+      </div>
+      <blockquote class="text-2xl sm:text-3xl font-semibold text-slate-100 leading-snug mb-6">
+        &ldquo;O aplicativo facilitou imensamente o acompanhamento tático do 5x1 durante os jogos. Ter o scout rápido e o relatório PDF pronto logo após o término da partida mudou a nossa dinâmica de análise.&rdquo;
+      </blockquote>
+      <div class="text-sm">
+        <div class="font-bold text-white">Comissão Técnica de Voleibol</div>
+        <div class="text-slate-400">Análise de Desempenho & Preparação Tática</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call To Action -->
+  <section class="py-24 gradient-hero relative">
+    <div class="max-w-5xl mx-auto px-4 text-center relative z-10">
+      <h2 class="text-3xl sm:text-5xl font-extrabold text-white mb-6">Pronto para transformar a tática da sua equipe?</h2>
+      <p class="text-slate-300 text-lg max-w-2xl mx-auto mb-10">
+        Utilize a ferramenta em qualquer smartphone, tablet ou notebook diretamente pelo navegador, sem necessidade de instalação complexa.
+      </p>
+      <a href="/" class="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-extrabold text-lg shadow-xl shadow-blue-600/30 transition-all hover:scale-105">
+        <span>Abrir Aplicativo Agora</span>
+        <i data-lucide="arrow-right" class="w-5 h-5"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 border-t border-slate-800 py-12 text-slate-400 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-blue-600 text-white font-black text-sm flex items-center justify-center">
+          5x1
+        </div>
+        <span class="text-white font-bold text-base">Vôlei 5x1 Tático</span>
+      </div>
+
+      <p class="text-xs text-slate-500">
+        &copy; <script>document.write(new Date().getFullYear())</script> Vôlei 5x1. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Initialize Lucide Icons -->
+  <script>
+    lucide.createIcons();
+  </script>
 </body>
-
 </html>
+
