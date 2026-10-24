@@ -1,0 +1,2032 @@
+[
+ {
+  "id": "F01",
+  "c": "F",
+  "h": "00:06:50",
+  "s": 410,
+  "a": "Em 2019 havia cerca de 14 mil obras inacabadas; o governo Bolsonaro entregou com pouco mais de 8 mil",
+  "t": "N",
+  "v": "Enganoso",
+  "n": "",
+  "d": "O Acórdão do TCU (TC 021.731/2019-5) contou 14.403 contratos \"paralisados\" entre 38.412 obras em cinco bases, com dados de abril–maio de 2018. O painel do TCU de 2023 registra 8.603 (41% de 21.007); em 2020 eram 7.862. As bases são diferentes",
+  "f": "TCU 2019, TCU 2023",
+  "k": "P",
+  "l": [
+   {
+    "t": "TCU 2019",
+    "u": "https://portal.tcu.gov.br/data/files/48/32/6D/B2/4FAA9710FC66CE87E18818A8/021.731%202019-5.pdf"
+   },
+   {
+    "t": "TCU 2023",
+    "u": "https://portal.tcu.gov.br/imprensa/noticias/brasil-tem-8-6-mil-obras-paralisadas-financiadas-com-recursos-federais.htm"
+   }
+  ]
+ },
+ {
+  "id": "F02",
+  "c": "F",
+  "h": "00:06:50",
+  "s": 410,
+  "a": "Relatório recente do TCU aponta mais de 11.500 obras paralisadas \"do atual governo\"",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "TCU: 11.941 paralisadas (dez/2024) e 11.469 de 22.621 (abr/2025). O número é real, mas o painel cobre obras com recursos federais de qualquer origem e período, inclusive herdadas, e não identifica \"do atual governo\". Não achei atualização de 2026",
+  "f": "TCU",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L01",
+  "c": "L",
+  "h": "00:07:44",
+  "s": 464,
+  "a": "\"Em nenhum momento da história\" o Brasil investiu tanto em infraestrutura",
+  "t": "C",
+  "v": "Não checada",
+  "n": "",
+  "d": "",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "L02",
+  "c": "L",
+  "h": "00:07:44",
+  "s": 464,
+  "a": "PAC de \"1 trilhão e 700 bilhões\", \"quase 800 já executados\"",
+  "t": "N",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Último balanço oficial que acessei (Secom, abr/2025): R$ 711 bi executados (53,7% de R$ 1,3 tri até 2026) e R$ 1,8 tri com o pós-2026. A página do Novo PAC hoje mostra R$ 1,9 tri no total. Não achei balanço de 2026",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L03",
+  "c": "L",
+  "h": "00:07:44",
+  "s": 464,
+  "a": "O governo fez \"três ou quatro vezes mais\" infraestrutura do que o de Bolsonaro",
+  "t": "C",
+  "v": "Não checada",
+  "n": "",
+  "d": "",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "L04",
+  "c": "L",
+  "h": "00:07:44",
+  "s": 464,
+  "a": "Lula herdou 6 mil obras paradas",
+  "t": "N",
+  "v": "Não verificável",
+  "n": "",
+  "d": "O TCU registra 8.603 paralisadas (2023). \"6 mil\" não aparece em fonte oficial consultada",
+  "f": "TCU",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "F03",
+  "c": "F",
+  "h": "00:09:18",
+  "s": 558,
+  "a": "O governo Bolsonaro criou regra de pedágio zero para motociclistas nas concessões",
+  "t": "J",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Não achei regra federal; só uma portaria de 2021 sobre a Dutra e o PL 312/2026. Bolsonaro vetou parte da lei do pedágio por quilômetro",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F04",
+  "c": "F",
+  "h": "00:09:18",
+  "s": 558,
+  "a": "Foram instalados mais de 21.300 pontos de internet, em 3.100 cidades, atendendo mais de 11 milhões de pessoas",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "MCom em jun/2022: mais de 17 mil pontos em cerca de 3,2 mil municípios, atendendo mais de 11 milhões. Municípios e pessoas batem; os 21.300 pontos não apareceram em fonte",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L05",
+  "c": "L",
+  "h": "00:11:33",
+  "s": 693,
+  "a": "Estão em andamento BR-319, Transnordestina, FIOL, FICO, Serra das Araras (quase R$ 12 bi), túnel de Santos, VLT de Salvador, metrôs, BRT",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Lista longa, sem checagem obra a obra",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "L06",
+  "c": "L",
+  "h": "00:11:33",
+  "s": 693,
+  "a": "A transposição do São Francisco está \"muito próxima de concluir\"; D. Pedro II tentou em 1846",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Sem fonte",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "L07",
+  "c": "L",
+  "h": "00:14:46",
+  "s": 886,
+  "a": "Sem os governos do PT o salário mínimo seria de R$ 900",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "R$ 200 (jan/2003) corrigidos pelo INPC até set/2026 dão R$ 732; partindo de R$ 240 (abr/2003): R$ 842; de R$ 200 (abr/2002): R$ 838. A lógica está certa, mas R$ 900 superestima",
+  "f": "BCB",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L08",
+  "c": "L",
+  "h": "00:14:46",
+  "s": 886,
+  "a": "Temer (e Bolsonaro) não aumentaram o salário mínimo acima da inflação",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Ganho real acumulado pelo INPC: Temer (reajustes 2017–18) −0,34%; Bolsonaro (2019–22) +1,2%, praticamente estável. Reajustes de 2023–26: +11,8%",
+  "f": "BCB (INPC, SGS 188, 1619)",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L09",
+  "c": "L",
+  "h": "00:16:14",
+  "s": 974,
+  "a": "O salário mínimo chegou a R$ 1.600",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "R$ 1.621, arredondado",
+  "f": "BCB",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L10",
+  "c": "L",
+  "h": "00:16:14",
+  "s": 974,
+  "a": "O Brasil \"aprovou o fim da escala 6x1\"",
+  "t": "J",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "PEC 221/2019: Câmara em maio/2026 e Senado em 14/10/2026 (75 a 1 nos dois turnos). Quem aprova é o Congresso; promulgação não confirmada",
+  "f": "Agência Senado",
+  "k": "P",
+  "l": [
+   {
+    "t": "Agência Senado: Senado aprova fim da escala 6x1",
+    "u": "https://www12.senado.leg.br/noticias/materias/2026/10/14/senado-aprova-fim-da-escala-6x1-1"
+   }
+  ]
+ },
+ {
+  "id": "F05",
+  "c": "F",
+  "h": "00:17:39",
+  "s": 1059,
+  "a": "O salário mínimo atual é de R$ 1.621",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "R$ 1.621,00 vigente desde 01/01/2026",
+  "f": "BCB (SGS 1619)",
+  "k": "P",
+  "l": [
+   {
+    "t": "Banco Central: salário mínimo (SGS 1619)",
+    "u": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados?formato=json"
+   }
+  ]
+ },
+ {
+  "id": "F06",
+  "c": "F",
+  "h": "00:17:39",
+  "s": 1059,
+  "a": "O governo Lula implementou a maior carga tributária da história",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "Tesouro: 32,4% do PIB em 2025, maior da série (2010–2025); 32,22% em 2024. O dado é preliminar e a série só começa em 2010",
+  "f": "Tesouro Nacional",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F07",
+  "c": "F",
+  "h": "00:17:39",
+  "s": 1059,
+  "a": "A alíquota do IVA é estimada em 28% e o governo não enviou o projeto de lei da alíquota",
+  "t": "N/J",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Estimativas: Fazenda 25,9%–27,5%, Comitê Gestor 27,91%; 28% é o topo da faixa. A alíquota será fixada por resolução do Senado (prazo 15/12/2026) depois do cálculo do TCU (até 30/10). A LC 214/2025 já está em vigor, então não depende de novo projeto de lei",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F08",
+  "c": "F",
+  "h": "00:17:39",
+  "s": 1059,
+  "a": "Será \"o maior IVA do mundo\"",
+  "t": "C",
+  "v": "Não verificável",
+  "n": "",
+  "d": "A alíquota ainda não está definida. A comparação com a Hungria (27%) não foi verificada",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F09",
+  "c": "F",
+  "h": "00:17:39",
+  "s": 1059,
+  "a": "Bolsonaro \"deu no mínimo 600 reais\" de Bolsa Família (Auxílio Brasil)",
+  "t": "H",
+  "v": "Verdadeiro",
+  "n": "com contexto",
+  "d": "R$ 600 pagos de ago a dez/2022, em ano eleitoral, e mantidos por Lula desde 2023. A primeira correção geral só veio em set/2026",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F10",
+  "c": "F",
+  "h": "00:17:39",
+  "s": 1059,
+  "a": "Os 600 reais \"não enchem mais o carrinho\" por causa do governo; a inflação \"chegou com toda a força\"",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "R$ 600 de ago/2022 equivalem hoje a R$ 713 (INPC +18,85% de set/2022 a set/2026): o poder de compra do piso caiu 15,9%. Alimentação e bebidas: IPCA +18,5% no período. A causa atribuída ao governo é interpretação. Em out/2026 o piso subiu para R$ 691",
+  "f": "BCB/IBGE",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "F11",
+  "c": "F",
+  "h": "00:17:39",
+  "s": 1059,
+  "a": "O Brasil tem uma das maiores taxas de juros do mundo",
+  "t": "C",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Ranking Lev/MoneYou (set/2026): Brasil com o maior juro real do mundo (8,45%), à frente de Rússia, Colômbia e Turquia",
+  "f": "(fonte privada)",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F12",
+  "c": "F",
+  "h": "00:17:39",
+  "s": 1059,
+  "a": "Dúzia de ovos com 10 unidades, sabão em pó de 1 kg para 800 g, chocolate de 120 g para 80 g, papel higiênico de 40 m para 20 m",
+  "t": "N",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Exemplos pontuais, sem dado oficial de escala (Senacon/INMETRO)",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F13",
+  "c": "F",
+  "h": "00:20:36",
+  "s": 1236,
+  "a": "Lula chamou o agro de \"fascista\" e disse que as pessoas \"têm que se ajoelhar aos seus pés\"",
+  "t": "A",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "No Jornal Nacional (25/08/2022), Lula disse que parte do agro é \"fascista e direitista\". Não achei a frase sobre \"ajoelhar\"",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L11",
+  "c": "L",
+  "h": "00:21:11",
+  "s": 1271,
+  "a": "Nunca se exportou tanto no país",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Exportações: US$ 348,3 bi em 2025 (recorde); US$ 371,1 bi em 12 meses até ago/2026",
+  "f": "MDIC (ComexStat)",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L12",
+  "c": "L",
+  "h": "00:21:11",
+  "s": 1271,
+  "a": "Superávit comercial \"quase 85 bilhões de reais\"; \"700 novos mercados\"",
+  "t": "N",
+  "v": "Enganoso",
+  "n": "",
+  "d": "O Mapa/MRE contam 639 aberturas de mercado em 97 destinos desde 2023, não 700. O superávit de 12 meses até ago/2026 é de US$ 79,6 bi (MDIC)",
+  "f": "Mapa (t); MDIC",
+  "k": "P",
+  "l": [
+   {
+    "t": "Mapa",
+    "u": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/mapa-consolida-maior-avanco-da-historia-no-acesso-a-mercados-para-o-agronegocio-brasileiro"
+   }
+  ]
+ },
+ {
+  "id": "F14",
+  "c": "F",
+  "h": "00:22:38",
+  "s": 1358,
+  "a": "Flávio tem 45 anos, foi deputado 4 vezes, é senador, advogado e pós-graduado",
+  "t": "H",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Nascido em 30/04/1981 (Senado) e na Alerj de 2003 a 2019, em quatro mandatos; senador desde 2019. Quanto às pós-graduações, a UFRJ disse não ter registro e a campanha reconheceu \"erro\" no currículo",
+  "f": "Senado; D",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "F15",
+  "c": "F",
+  "h": "00:22:38",
+  "s": 1358,
+  "a": "O juro real do Plano Safra fica próximo de 20%",
+  "t": "N",
+  "v": "Falso",
+  "n": "",
+  "d": "Plano Safra 2026/27: custeio empresarial 12,5% ao ano, Pronamp 9%, investimento de 8,5% a 12,5%, Pronaf de 0,5% a 7,5%. Com IPCA de 4,58%, o juro real é de cerca de 4% a 8%",
+  "f": "Mapa, Fazenda (t)",
+  "k": "P",
+  "l": [
+   {
+    "t": "Mapa",
+    "u": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/plano-safra-26-27-destina-r-525-bilhoes-para-fortalecer-a-agricultura-empresarial"
+   },
+   {
+    "t": "Fazenda",
+    "u": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/julho/plano-safra-2026-2027-supera-r-610-bilhoes-com-participacao-da-fazenda-na-reducao-de-juros-e-equilibrio-nas-contas-publicas"
+   }
+  ]
+ },
+ {
+  "id": "F16",
+  "c": "F",
+  "h": "00:22:38",
+  "s": 1358,
+  "a": "O governo contingencia recursos do seguro rural e do Plano Safra",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "MAPA bloqueou R$ 461,7 mi do seguro rural em 2026 (45,7% do previsto) e R$ 445 mi em 2025. A Lei 15.526/2026 tornou a subvenção despesa obrigatória, protegida de contingenciamento. Não achei contingenciamento do crédito do Plano Safra",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L13",
+  "c": "L",
+  "h": "00:25:08",
+  "s": 1508,
+  "a": "O juro do crédito rural é subsidiado, não é a Selic",
+  "t": "N/J",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Plano Safra 2026/27: 8% a 12,5% ao ano com a Selic em 13,75–14%; a diferença é coberta por equalização",
+  "f": "P/D",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L14",
+  "c": "L",
+  "h": "00:25:08",
+  "s": 1508,
+  "a": "O Brasil saiu do mapa da fome em 2012 e voltou em 2023 com \"33 mil\" pessoas passando fome",
+  "t": "N",
+  "v": "Enganoso",
+  "n": "",
+  "d": "PNAD Contínua 2023 (IBGE): insegurança alimentar grave em 4,1% dos domicílios (3.204 mil). Em 2024, 3,2%. Os 33,1 milhões de pessoas são do período 2021–2022 e de pesquisa não oficial",
+  "f": "IBGE (t)",
+  "k": "P",
+  "l": [
+   {
+    "t": "IBGE",
+    "u": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102084.pdf"
+   }
+  ]
+ },
+ {
+  "id": "L15",
+  "c": "L",
+  "h": "00:27:06",
+  "s": 1626,
+  "a": "O Sul tem proporcionalmente mais aposentados do Brasil",
+  "t": "N",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Não achei dado por região do Censo 2022 ou da PNAD",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F17",
+  "c": "F",
+  "h": "00:27:29",
+  "s": 1649,
+  "a": "O Milei assumiu com 211% de inflação e a taxa de juros chegou a 100%",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "INDEC: inflação de 211,4% em 2023. A taxa básica estava em 133% em dez/2023, acima do que ele disse",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F18",
+  "c": "F",
+  "h": "00:27:29",
+  "s": 1649,
+  "a": "\"A esquerda governou a Argentina por 20 anos\"",
+  "t": "H",
+  "v": "Enganoso",
+  "n": "",
+  "d": "Casa Rosada: Kirchner (2003–2007), Cristina (2007–2015), Macri (2015–2019), Alberto Fernández (2019–2023). Governos de esquerda: 16 anos, e não 20",
+  "f": "Casa Rosada",
+  "k": "P",
+  "l": [
+   {
+    "t": "Casa Rosada",
+    "u": "https://www.casarosada.gob.ar/nuestro-pais/presidentes"
+   }
+  ]
+ },
+ {
+  "id": "F19/F49",
+  "c": "F",
+  "h": "00:27:29 e 01:11:08",
+  "s": 1649,
+  "a": "Lula \"já gastou mais de 400 bilhões de reais para tentar se reeleger\" (repete 405 bi em 01:11:08)",
+  "t": "N",
+  "v": "Enganoso",
+  "n": "",
+  "d": "Nenhum cálculo encontrado chega a esse valor. O Relatório de Acompanhamento Fiscal nº 116 da IFI (set/2026), que abri, não traz essa soma. Reportagens citam R$ 298,4 bi (atribuídos à IFI) e R$ 193,8 bi (outro levantamento), e o relatório de junho da IFI menciona medidas de crédito e renda de cerca de R$ 150 bi. Nada se aproxima de R$ 400 bi, e boa parte dessas cifras são linhas de crédito, não gasto direto.",
+  "f": "IFI, RAF nº 116 (set/2026); reportagens",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L16",
+  "c": "L",
+  "h": "00:28:33",
+  "s": 1713,
+  "a": "Há 26 milhões de aposentados com salário mínimo",
+  "t": "N",
+  "v": "Enganoso",
+  "n": "mantido",
+  "d": "As páginas do Previdência e do INSS não carregaram e o boletim não traz a faixa. Os números de que disponho (21,9 a 23 milhões de benefícios no piso) seguem abaixo de 26 milhões, mas não confirmei no boletim",
+  "f": "INSS/Ministério da Previdência (via reportagem; páginas oficiais não carregaram)",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F20",
+  "c": "F",
+  "h": "00:29:24",
+  "s": 1764,
+  "a": "O governo não entregou \"nem 30%\" do que prometeu para o Rio Grande do Sul após as enchentes de 2024",
+  "t": "N",
+  "v": "Não verificável",
+  "n": "",
+  "d": "A Casa Civil diz que 94% do Auxílio Reconstrução foi repassado (mai/2026); uma reportagem de 2024 contava apenas 14,7% do total anunciado como pago. O resultado depende do que se chama \"prometido\"",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F21",
+  "c": "F",
+  "h": "00:31:36",
+  "s": 1896,
+  "a": "Cerca de 90 milhões de brasileiros não têm esgoto tratado e cerca de 40 milhões não têm água tratada",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "SINISA 2023: água em 83,1% da população, o que deixa cerca de 34 milhões sem rede (ele disse 40); esgoto coletado em 59,7%, o que deixa uns 82 milhões sem coleta. Trata Brasil (base SINISA 2024): mais de 90 milhões (43,3%) sem coleta",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F22",
+  "c": "F",
+  "h": "00:31:36",
+  "s": 1896,
+  "a": "O marco legal do saneamento prevê 90% de cobertura até 2033",
+  "t": "J",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Lei 14.026/2020: 99% de água e 90% de esgoto até 31/12/2033",
+  "f": "Lei 14.064, LC 179, Lei 14.026",
+  "k": "P",
+  "l": [
+   {
+    "t": "Lei 14.064",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/L14064.htm"
+   },
+   {
+    "t": "LC 179",
+    "u": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp179.htm"
+   },
+   {
+    "t": "Lei 14.026",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/L14026.htm"
+   }
+  ]
+ },
+ {
+  "id": "F23",
+  "c": "F",
+  "h": "00:31:36",
+  "s": 1896,
+  "a": "A bancada do PT votou contra o marco legal do saneamento",
+  "t": "H",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "Câmara, 11/12/2019 (276 x 124): o PT foi orientado a votar \"não\", mas parte da bancada divergiu. Senado, 24/06/2020: 65 x 13",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L17",
+  "c": "L",
+  "h": "00:32:21",
+  "s": 1941,
+  "a": "Bolsonaro apareceu rindo e imitando alguém morrendo sem oxigênio",
+  "t": "A",
+  "v": "Enganoso",
+  "n": "",
+  "d": "A transcrição dos dois vídeos mostra que Bolsonaro criticava o ex-ministro Mandetta por mandar \"ficar em casa\" até sentir falta de ar. São lives de 19/03 e 06/05/2021, e não tratam da crise de oxigênio de Manaus (jan/2021)",
+  "f": "vídeo 1, vídeo 2 (clips do Poder360)",
+  "k": "P",
+  "l": [
+   {
+    "t": "vídeo 1",
+    "u": "https://www.youtube.com/watch?v=NTFj1xAwg2M"
+   },
+   {
+    "t": "vídeo 2",
+    "u": "https://www.youtube.com/watch?v=vO6TlUcUVZA"
+   }
+  ]
+ },
+ {
+  "id": "L18",
+  "c": "L",
+  "h": "00:32:21",
+  "s": 1941,
+  "a": "Lula fez 91 mil km de ônibus, barco e trem em 1989",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Sem registro oficial",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F24",
+  "c": "F",
+  "h": "00:33:49",
+  "s": 2029,
+  "a": "Por causa do atual governo, a meta do marco do saneamento \"já foi para depois de 2050\"",
+  "t": "J",
+  "v": "Enganoso",
+  "n": "",
+  "d": "A Lei 14.026/2020 fixa 99% de água e 90% de esgoto até 31/12/2033 e só permite estender o prazo até 1º/1/2040. Nenhuma norma fixa 2050",
+  "f": "Lei 14.026",
+  "k": "P",
+  "l": [
+   {
+    "t": "Lei 14.026",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/L14026.htm"
+   }
+  ]
+ },
+ {
+  "id": "L19",
+  "c": "L",
+  "h": "00:36:14",
+  "s": 2174,
+  "a": "Governo Bolsonaro \"anulou o Fundo Amazônia\"",
+  "t": "J",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "O Decreto 9.759/2019 extinguiu os comitês COFA e CTFA, e novos projetos pararam em 2020. O Fundo não foi extinto; o STF (ADO 59, nov/2022) mandou reativá-lo",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L20",
+  "c": "L",
+  "h": "00:38:16",
+  "s": 2296,
+  "a": "A transposição do São Francisco é a maior obra hídrica em funcionamento no mundo, com 1.700 km de canais e 15 mil km de adutoras",
+  "t": "N",
+  "v": "Falso",
+  "n": "",
+  "d": "O projeto original da transposição tinha 699 km (eixos Norte e Leste, com 477 km, mais os ramais do Agreste, Apodi e Salgado). Não há base para 1.700 km",
+  "f": "Nota do MDR",
+  "k": "P",
+  "l": [
+   {
+    "t": "Nota do MDR",
+    "u": "https://static.poder360.com.br/2022/02/nota-mdr-rio-sao-francisco.pdf"
+   }
+  ]
+ },
+ {
+  "id": "L21",
+  "c": "L",
+  "h": "00:38:16",
+  "s": 2296,
+  "a": "O Nordeste tinha mais pobres, desnutridos, analfabetos e menos universidades em 2003",
+  "t": "N",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Afirmação qualitativa, sem número",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F25",
+  "c": "F",
+  "h": "00:39:52",
+  "s": 2392,
+  "a": "O vídeo em que Bolsonaro imita falta de ar mostra, 10 segundos antes e depois, uma crítica a quem pedia esperar a falta de ar para ir ao hospital",
+  "t": "A",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "Mesmo conteúdo: o contexto foi a crítica ao protocolo do Mandetta. Ressalva: vi trechos do Poder360, e não a íntegra das lives originais",
+  "f": "vídeo 1, vídeo 2 (clips do Poder360)",
+  "k": "P",
+  "l": [
+   {
+    "t": "vídeo 1",
+    "u": "https://www.youtube.com/watch?v=NTFj1xAwg2M"
+   },
+   {
+    "t": "vídeo 2",
+    "u": "https://www.youtube.com/watch?v=vO6TlUcUVZA"
+   }
+  ]
+ },
+ {
+  "id": "F26",
+  "c": "F",
+  "h": "00:39:52",
+  "s": 2392,
+  "a": "Os estados do Nordeste administrados pelo PT e aliados são os mais violentos do Brasil",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Anuário FBSP 2026 (mortes violentas por 100 mil, 2025): Amapá 42,5; Bahia 36,8; Ceará 34,7; Rio Grande do Norte 29,1; Brasil 19,1. Bahia e Ceará (PT) são o 2º e o 3º, mas o mais violento é o Amapá (Norte). Generaliza o Nordeste",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L22",
+  "c": "L",
+  "h": "00:41:09",
+  "s": 2469,
+  "a": "Foram feitos 14 novos hospitais e 40 novos institutos federais no Nordeste, e levou-se o ITA ao Ceará",
+  "t": "N",
+  "v": "Não verificável",
+  "n": "",
+  "d": "O plano de 2024 prevê 38 novos campi de IF no Nordeste (de 100 no país): foram anunciados, não necessariamente concluídos. Os \"14 hospitais\" não aparecem",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F27",
+  "c": "F",
+  "h": "00:42:39",
+  "s": 2559,
+  "a": "Lula prometeu a transposição do São Francisco para 2009 e 2014 e não entregou; Bolsonaro \"concluiu as obras\"",
+  "t": "H",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "A obra começou em 2007, com previsão de 5 anos, e levou 13. O Eixo Leste foi inaugurado em 2017 (Temer) e o Eixo Norte entregou água ao Ceará em jun/2020 (Bolsonaro). Os prazos de 2009 e 2014 não foram localizados",
+  "f": "D; MDR",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F28",
+  "c": "F",
+  "h": "00:42:39",
+  "s": 2559,
+  "a": "O Bolsa Família antes era de R$ 75, R$ 120, média de R$ 190; Bolsonaro passou para R$ 600",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "com contexto",
+  "d": "Benefício médio de R$ 187,79 (jul/2018, estimativa do MDS) e R$ 190 (mai/2019). O R$ 600 foi pago de ago a dez/2022, em ano eleitoral, e mantido por Lula em 2023. Os valores de R$ 75 e R$ 120 não foram checados",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L23",
+  "c": "L",
+  "h": "00:46:53",
+  "s": 2813,
+  "a": "Flávio foi o único deputado estadual do RJ a votar contra o aumento da licença-maternidade",
+  "t": "H",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "Flávio admitiu no debate o voto contrário. O \"único\" vem de reportagens de 2009 e do próprio Lula; não vi o registro da Alerj",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L24",
+  "c": "L",
+  "h": "00:47:46",
+  "s": 2866,
+  "a": "Flávio chamou o Bolsa Família de \"Bolsa Farelo\"",
+  "t": "A",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Posts de 2011 a 2014, apagados em out/2026, chamavam o benefício de \"bolsa-farelo\". Em 2011 ele disse ser o único voto contra o programa estadual Renda Melhor",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L25",
+  "c": "L",
+  "h": "00:49:29",
+  "s": 2969,
+  "a": "Lula perdeu o dedo aos 17 anos trabalhando",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Sem registro oficial acessado",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "L26",
+  "c": "L",
+  "h": "00:49:29",
+  "s": 2969,
+  "a": "O primeiro emprego de Flávio foi \"falso\", dado pelo pai",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Sem fonte",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F29",
+  "c": "F",
+  "h": "00:50:52",
+  "s": 3052,
+  "a": "199 mil moradores de rua estavam no CadÚnico e \"quase dobrou\"",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "CadÚnico: 198,7 mil (dez/2022) e 392,4 mil (jun/2026), alta de 97%. O MDS atribui parte da alta a melhor cadastramento (subnotificação em 2019–2022); o CadÚnico não é um censo",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F30",
+  "c": "F",
+  "h": "00:50:52",
+  "s": 3052,
+  "a": "O governo deu \"reajuste de três reais por dia\" há 17 dias, antes da eleição",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Reajuste de 15,04% (de R$ 600 para R$ 691): cerca de R$ 91 por mês, ou R$ 3 por dia. É a primeira correção geral desde ago/2022. O anúncio reportado é de 18/09, ou seja, 35 dias antes do debate; não confirmei a data de pagamento",
+  "f": "(um veículo; conferir no MDS)",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F31",
+  "c": "F",
+  "h": "00:50:52",
+  "s": 3052,
+  "a": "Mais de 80 milhões de pessoas estão com contas atrasadas",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Serasa: 81,7 mi (fev/2026) e 82,8 mi (mar/2026) de inadimplentes. O BCB não publica número de pessoas, então a Serasa é a fonte original",
+  "f": "(privada)",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F32",
+  "c": "F",
+  "h": "00:50:52",
+  "s": 3052,
+  "a": "Recorde de mulheres assassinadas e de mulheres espancadas no governo Lula",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Feminicídios: 1.571 em 2025, recorde desde 2015 (4º ano seguido). Mas as mortes violentas em geral caíram ao menor nível em 13 anos. \"Mulheres espancadas\" não foi verificado",
+  "f": "Anuário FBSP (dados estaduais)",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F33",
+  "c": "F",
+  "h": "00:50:52",
+  "s": 3052,
+  "a": "A Cracolândia \"acabou\" em São Paulo",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Sem dado oficial independente",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "L27",
+  "c": "L",
+  "h": "00:53:48",
+  "s": 3228,
+  "a": "A primeira universidade do Brasil surgiu 420 anos após a \"descoberta\"",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Depende do critério (1909, 1912 ou 1920); não verifiquei",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "L28",
+  "c": "L",
+  "h": "00:53:48",
+  "s": 3228,
+  "a": "\"Nenhum presidente fez mais inclusão social do que nós em 16 anos\"",
+  "t": "C",
+  "v": "Não checada",
+  "n": "",
+  "d": "",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F34",
+  "c": "F",
+  "h": "00:54:55",
+  "s": 3295,
+  "a": "O governo Bolsonaro sancionou lei que aumentou as penas para maus-tratos de animais",
+  "t": "J",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Lei 14.064/2020 (30/09/2020): reclusão de 2 a 5 anos para cães e gatos, contra 3 meses a 1 ano antes",
+  "f": "Lei 14.064, LC 179, Lei 14.026",
+  "k": "P",
+  "l": [
+   {
+    "t": "Lei 14.064",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/L14064.htm"
+   },
+   {
+    "t": "LC 179",
+    "u": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp179.htm"
+   },
+   {
+    "t": "Lei 14.026",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/L14026.htm"
+   }
+  ]
+ },
+ {
+  "id": "F35",
+  "c": "F",
+  "h": "00:54:55",
+  "s": 3295,
+  "a": "Existe estudo do FBI associando maus-tratos a animais à violência",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Não busquei a publicação do FBI",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F36",
+  "c": "F",
+  "h": "00:56:23",
+  "s": 3383,
+  "a": "A dívida pública é de 11 trilhões de reais",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Dívida bruta do governo geral: R$ 11,05 tri em ago/2026 (82,9% do PIB)",
+  "f": "BCB (SGS 13761, 13762)",
+  "k": "P",
+  "l": [
+   {
+    "t": "Banco Central: dívida bruta do governo geral (SGS 13761)",
+    "u": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados?formato=json"
+   }
+  ]
+ },
+ {
+  "id": "F37",
+  "c": "F",
+  "h": "00:56:23",
+  "s": 3383,
+  "a": "A taxa de juros oficial está em torno de 14%",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Meta Selic 14,00% até 17/09/2026; 13,75% desde então (vigente no debate)",
+  "f": "BCB (SGS 432)",
+  "k": "P",
+  "l": [
+   {
+    "t": "Banco Central: meta Selic (SGS 432)",
+    "u": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json"
+   }
+  ]
+ },
+ {
+  "id": "L29",
+  "c": "L",
+  "h": "00:57:10",
+  "s": 3430,
+  "a": "Flávio é de um grupo que fez o Banco Central independente",
+  "t": "J",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "Veja F38. O voto individual de Flávio não foi localizado",
+  "f": "Lei 14.064, LC 179, Lei 14.026",
+  "k": "P",
+  "l": [
+   {
+    "t": "Lei 14.064",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/L14064.htm"
+   },
+   {
+    "t": "LC 179",
+    "u": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp179.htm"
+   },
+   {
+    "t": "Lei 14.026",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/L14026.htm"
+   }
+  ]
+ },
+ {
+  "id": "F38",
+  "c": "F",
+  "h": "00:57:24",
+  "s": 3444,
+  "a": "Banco Central independente é legado do Bolsonaro",
+  "t": "J",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "LC 179/2021, sancionada por Bolsonaro em 24/02/2021. O projeto (PLP 19/2019) é do Senado; o STF validou a lei por 8 a 2. O voto de Flávio não foi localizado",
+  "f": "Lei 14.064, LC 179, Lei 14.026",
+  "k": "P",
+  "l": [
+   {
+    "t": "Lei 14.064",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/L14064.htm"
+   },
+   {
+    "t": "LC 179",
+    "u": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp179.htm"
+   },
+   {
+    "t": "Lei 14.026",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/L14026.htm"
+   }
+  ]
+ },
+ {
+  "id": "F39",
+  "c": "F",
+  "h": "00:57:24",
+  "s": 3444,
+  "a": "Em outubro de 2022 a previsão era de Selic em torno de 7% se Bolsonaro continuasse",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Focus de 14/10/2022: Selic 7,75% (fim de 2025) e 7,50% (fim de 2026). Era a expectativa geral do mercado, antes do 2º turno; não era condicionada a quem ganharia",
+  "f": "BCB (Olinda/Focus)",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "F40",
+  "c": "F",
+  "h": "00:57:24",
+  "s": 3444,
+  "a": "Os juros somam quase 1 trilhão de reais por ano",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Juros nominais em 12 meses: 8,86% do PIB em ago/2026, cerca de R$ 1,19 tri. A ordem de grandeza está certa, mas o valor real é maior",
+  "f": "BCB (SGS 5760, 4382)",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "F41",
+  "c": "F",
+  "h": "00:57:24",
+  "s": 3444,
+  "a": "Os juros futuros caíram 2 pontos entre o 1º e o 2º turno, \"abrindo 200 bilhões no orçamento\"",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "2 p.p. sobre a dívida bruta de R$ 11,05 tri dá R$ 221 bi por ano, mas só se todo o estoque fosse reprecificado de uma vez. A queda de 2 p.p. nos juros futuros não foi verificada (dados da B3 inacessíveis)",
+  "f": "(cálculo)",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L30",
+  "c": "L",
+  "h": "00:59:47",
+  "s": 3587,
+  "a": "Perdão de \"quase 15 bilhões\" para \"4 milhões de gente\" (dívidas de MEIs com a União)",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "aproximado",
+  "d": "MEMP: \"mais de R$ 15,5 bilhões perdoados\" para \"mais de 3,6 milhões\" de MEIs, com vigência em 1º/1/2027. Lula disse \"quase 15 bilhões\" e \"4 milhões\"",
+  "f": "MEMP",
+  "k": "P",
+  "l": [
+   {
+    "t": "MEMP",
+    "u": "https://www.gov.br/memp/pt-br/assuntos/noticias/congresso-aprova-pacote-do-mei-com-teto-de-ate-r-140-mil-dois-empregados-e-perdao-de-dividas-federais"
+   }
+  ]
+ },
+ {
+  "id": "L31",
+  "c": "L",
+  "h": "00:59:47",
+  "s": 3587,
+  "a": "Compra de dívidas com deságio de \"90%, 92%, até 95%\"",
+  "t": "J",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "O desconto mínimo de 90% está fixado na MP 1.393/2026. Não confirmei 92% e 95% em fonte oficial",
+  "f": "MEMP",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L32",
+  "c": "L",
+  "h": "00:59:47",
+  "s": 3587,
+  "a": "O governo herdou a Selic em 13% e ela está em 3,75%",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "a confirmar no áudio",
+  "d": "Selic 13,75% em dez/2022 e 13,75% em out/2026. O WhisperX registrou \"3,75%\", a legenda do YouTube \"13,75%\"",
+  "f": "BCB",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L33",
+  "c": "L",
+  "h": "00:59:47",
+  "s": 3587,
+  "a": "Lula ficou 8 anos sem trocar o presidente do BC; FHC trocou 4 vezes",
+  "t": "H",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Meirelles 2003–2010. Sob FHC: Arida, Loyola, Franco, Lopes e Fraga (4 trocas). A página do BCB não abriu",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L34",
+  "c": "L",
+  "h": "00:59:47",
+  "s": 3587,
+  "a": "A economia não crescia acima de 3% desde 2010",
+  "t": "N",
+  "v": "Falso",
+  "n": "",
+  "d": "PIB: 2011 +3,97%, 2013 +3,00%, 2021 +4,76%, 2022 +3,02%, 2023 +3,24%, 2024 +3,42%",
+  "f": "IBGE via BCB (SGS 7326)",
+  "k": "P",
+  "l": [
+   {
+    "t": "IBGE: PIB anual (série do Banco Central, SGS 7326)",
+    "u": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json"
+   }
+  ]
+ },
+ {
+  "id": "L35",
+  "c": "L",
+  "h": "00:59:47",
+  "s": 3587,
+  "a": "\"Nenhum momento da história fez mais crédito\"",
+  "t": "C",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "Saldo de crédito/PIB: 56,03% em dez/2025, recorde da série (que só começa em 2007)",
+  "f": "BCB (SGS 20622)",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L36",
+  "c": "L",
+  "h": "01:02:55",
+  "s": 3775,
+  "a": "O escolhido de Flávio disse que \"não vai colocar nenhum dinheiro no SUS\"",
+  "t": "A",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Não identifiquei a declaração",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "L37",
+  "c": "L",
+  "h": "01:02:55",
+  "s": 3775,
+  "a": "\"716 mil\" mortes por Covid",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Contagem acumulada da OMS (a partir de dados do Ministério da Saúde): 704.092 em 27/09/2026 (702.116 em 31/12/2023). A ordem de grandeza está certa, mas 716 mil não bate",
+  "f": "OMS",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "F42",
+  "c": "F",
+  "h": "01:03:59",
+  "s": 3839,
+  "a": "Lula criou ou aumentou mais de 30 impostos",
+  "t": "N",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Não há definição oficial de \"criar ou aumentar imposto\"; exigiria levantar todas as leis e decretos",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F43",
+  "c": "F",
+  "h": "01:03:59",
+  "s": 3839,
+  "a": "Lula, como constituinte, votou contra a Constituição de 1988",
+  "t": "H",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "Votação final de 22/09/1988: 474 a 15, e os 15 \"não\" foram do PT. Lula, líder do partido, encaminhou o voto \"não\". O PT assinou o texto depois",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L38",
+  "c": "L",
+  "h": "01:05:02",
+  "s": 3902,
+  "a": "Bolsonaro disse que quem tomasse a vacina viraria \"gay\" e \"jacaré\"; promoveu cloroquina",
+  "t": "A",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Em 17/12/2020 Bolsonaro falou em \"virar jacaré\", barba em mulher e \"falar fino\". \"Gay\" não consta nas transcrições. Depois chamou de hipérbole",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L39",
+  "c": "L",
+  "h": "01:05:02",
+  "s": 3902,
+  "a": "Teria sido possível salvar pelo menos metade dos mortos",
+  "t": "C",
+  "v": "Não checada",
+  "n": "",
+  "d": "",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F44",
+  "c": "F",
+  "h": "01:07:06",
+  "s": 4026,
+  "a": "A facada em Bolsonaro foi dada por ex-integrante do PSOL e ele foi atendido na Santa Casa de Juiz de Fora (SUS)",
+  "t": "H",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Adélio foi filiado ao PSOL de 2007 a 2014 (registro do TSE). Quanto ao atendimento, a Santa Casa é hospital filantrópico e não confirmei o enquadramento SUS",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F45",
+  "c": "F",
+  "h": "01:07:06",
+  "s": 4026,
+  "a": "A espera para cirurgia de câncer de tireoide ultrapassou 700 dias",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "TCU (auditoria de jul/2026): média de 719 dias em 2025. A série é volátil: 1.121 (2022), 421 (2023), 75 (2024). Em 2022 era maior",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F46",
+  "c": "F",
+  "h": "01:07:06",
+  "s": 4026,
+  "a": "A tabela SUS paga R$ 10 por consulta e R$ 443 por parto",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Tabela SIGTAP 10/2026: consulta especializada R$ 10,00; parto normal R$ 443,40 (R$ 267,60 hospital + R$ 175,80 profissional). Cesárea: R$ 545,73. São valores da tabela federal; estados e municípios podem complementar",
+  "f": "DATASUS (SIGTAP 202610)",
+  "k": "P",
+  "l": [
+   {
+    "t": "DATASUS: tabela SIGTAP (competência 10/2026)",
+    "u": "ftp://ftp2.datasus.gov.br/pub/sistemas/tup/downloads/"
+   }
+  ]
+ },
+ {
+  "id": "F47",
+  "c": "F",
+  "h": "01:07:06",
+  "s": 4026,
+  "a": "O percentual federal aplicado em saúde diminui a cada ano",
+  "t": "N",
+  "v": "Enganoso",
+  "n": "",
+  "d": "A Constituição, art. 198 § 2º, I, fixa o mínimo da União em 15% da receita corrente líquida. O regime do teto de gastos (ADCT art. 110, que corrigia o piso pela inflação) foi revogado pela EC 126/2022, e o piso voltou ao percentual de 15% a partir de 2023",
+  "f": "Constituição",
+  "k": "P",
+  "l": [
+   {
+    "t": "Constituição",
+    "u": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+   }
+  ]
+ },
+ {
+  "id": "F48",
+  "c": "F",
+  "h": "01:10:11",
+  "s": 4211,
+  "a": "Lula disse \"se a comida está cara, não compra\"",
+  "t": "A",
+  "v": "Verdadeiro",
+  "n": "paráfrase",
+  "d": "Rádio na Bahia, 06/02/2025: \"se você desconfia que tal produto está caro, você não compra\"",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F50",
+  "c": "F",
+  "h": "01:11:08",
+  "s": 4268,
+  "a": "A Caixa tem mais de 11 milhões de contratos imobiliários e 30 milhões de pessoas atingidas",
+  "t": "N",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Achei carteira de R$ 1 tri (jun/2026) e 873 mil imóveis financiados em 2025, mas não o total de contratos ativos. Uma fonte de 2024 indica cerca de 6,9 milhões",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L40",
+  "c": "L",
+  "h": "01:14:00",
+  "s": 4440,
+  "a": "O Desenrola 1 atendeu 15 milhões de pessoas e o Desenrola 2 quase 16 milhões",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Desenrola 1: mais de 15 milhões de pessoas (R$ 53 bi). Desenrola 2 (MP de 04/05/2026): 6 milhões até 09/06 e R$ 44,1 bi renegociados em 3 meses; \"16 milhões\" não confirmado",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L41",
+  "c": "L",
+  "h": "01:14:00",
+  "s": 4440,
+  "a": "Leilão \"esse mês\" que \"pode chegar a mais de 150 bilhões\"",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "O anúncio oficial diz que a MP \"renegocia até R$ 150 bilhões\", então o valor tem base, mas é \"até\" e não \"mais de\". Os leilões estão previstos para novembro, e não para outubro. O desconto mínimo de 90% está na MP 1.393/2026",
+  "f": "Min. da Justiça, MEMP, Fazenda",
+  "k": "P",
+  "l": [
+   {
+    "t": "Min. da Justiça",
+    "u": "https://www.gov.br/mj/pt-br/assuntos/noticias-1/governo-federal-proibe-bets-em-todo-o-pais-e-lanca-pacote-de-protecao-as-familias-endividadas-1"
+   },
+   {
+    "t": "MEMP",
+    "u": "https://www.gov.br/memp/pt-br/assuntos/noticias/congresso-aprova-pacote-do-mei-com-teto-de-ate-r-140-mil-dois-empregados-e-perdao-de-dividas-federais"
+   },
+   {
+    "t": "Fazenda",
+    "u": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/outubro/fazenda-abre-chamamento-publico-para-instituicoes-interessadas-em-participar-como-credoras-da-terceira-fase-da-renegociacao-de-dividas"
+   }
+  ]
+ },
+ {
+  "id": "L42",
+  "c": "L",
+  "h": "01:14:00",
+  "s": 4440,
+  "a": "Foram criados 17,5 milhões de MEIs",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Receita: 17,16 milhões ativos (jun/2026), mas o número é acumulado desde 2009 (9,4 milhões em dez/2019)",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L43",
+  "c": "L",
+  "h": "01:14:00",
+  "s": 4440,
+  "a": "Lula acabou com as \"bets\"",
+  "t": "J",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "O Ministério da Justiça confirma a MP que \"proíbe a exploração, a oferta, a intermediação e a publicidade de apostas de quota fixa em todo o País\". Como toda MP, depende do Congresso",
+  "f": "Min. da Justiça",
+  "k": "P",
+  "l": [
+   {
+    "t": "Min. da Justiça",
+    "u": "https://www.gov.br/mj/pt-br/assuntos/noticias-1/governo-federal-proibe-bets-em-todo-o-pais-e-lanca-pacote-de-protecao-as-familias-endividadas-1"
+   }
+  ]
+ },
+ {
+  "id": "F51",
+  "c": "F",
+  "h": "01:18:12",
+  "s": 4692,
+  "a": "Lula \"zerou o orçamento federal para o ensino integral\"",
+  "t": "N",
+  "v": "Enganoso",
+  "n": "",
+  "d": "O MEC informa que, pela EC 135/2024, os recursos do tempo integral passaram a ser repassados pelo Fundeb (Portaria 605/2025, com depósitos de 31/10/2025 a 31/01/2026) e que em 2026 serão 4% do Fundeb (t)",
+  "f": "MEC",
+  "k": "P",
+  "l": [
+   {
+    "t": "MEC",
+    "u": "https://www.gov.br/mec/pt-br/acesso-a-informacao/perguntas-frequentes/programa-escola-em-tempo-integral"
+   }
+  ]
+ },
+ {
+  "id": "F52",
+  "c": "F",
+  "h": "01:18:12",
+  "s": 4692,
+  "a": "Lula criou/liberou o \"Tigrinho\" (cassino online) e depois cancelou perto da eleição",
+  "t": "J",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "Flávio diz que Lula \"criou e liberou\" o Tigrinho. Os jogos on-line foram autorizados pela primeira vez na Lei 14.790/2023 (Lula), e a MP 1.394/2026 (25/09/2026) os proibiu. A ressalva é que a atividade já existia na ilegalidade e que a modalidade de quota fixa vem da Lei de 2018",
+  "f": "mesmas leis; Ministério da Justiça",
+  "k": "P",
+  "l": [
+   {
+    "t": "Ministério da Justiça",
+    "u": "https://www.gov.br/mj/pt-br/assuntos/noticias-1/governo-federal-proibe-bets-em-todo-o-pais-e-lanca-pacote-de-protecao-as-familias-endividadas-1"
+   }
+  ]
+ },
+ {
+  "id": "L44",
+  "c": "L",
+  "h": "01:18:17",
+  "s": 4697,
+  "a": "O \"Tigrinho\" foi criado pelo governo Bolsonaro em 2022",
+  "t": "J",
+  "v": "Falso",
+  "n": "",
+  "d": "\"O Tigrinho foi criado por vocês em 2022.\" A Lei 13.756/2018 (Temer), art. 29 § 1º, criou as apostas de quota fixa só para \"eventos reais de temática esportiva\". Eventos \"virtuais\", ou seja, os jogos on-line, entraram pela MP 1.182/2023 e pela Lei 14.790/2023, ambas do governo Lula. Não há ato de 2022",
+  "f": "Lei 13.756, Lei 14.790",
+  "k": "P",
+  "l": [
+   {
+    "t": "Lei 13.756",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13756.htm"
+   },
+   {
+    "t": "Lei 14.790",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14790.htm"
+   }
+  ]
+ },
+ {
+  "id": "L45",
+  "c": "L",
+  "h": "01:19:13",
+  "s": 4753,
+  "a": "Foram encontradas 5.600 creches e escolas paralisadas",
+  "t": "N",
+  "v": "Não verificável",
+  "n": "",
+  "d": "O cadastro do FNDE (maio/2023) apontava 3.585 escolas de educação básica paralisadas ou inacabadas. Os 5.600 não aparecem; pode incluir institutos federais e outras obras",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L46",
+  "c": "L",
+  "h": "01:19:13",
+  "s": 4753,
+  "a": "Pé-de-Meia fez \"66% das crianças não desistirem da escola\"",
+  "t": "N",
+  "v": "Falso",
+  "n": "",
+  "d": "O \"66%\" é o Indicador Criança Alfabetizada: 44% em 2023 e 66% em 2025. Não é do Pé-de-Meia",
+  "f": "TCU",
+  "k": "P",
+  "l": [
+   {
+    "t": "TCU",
+    "u": "https://portal.tcu.gov.br/imprensa/noticias/auditoria-avalia-compromisso-nacional-crianca-alfabetizada-nos-estados-brasileiros"
+   }
+  ]
+ },
+ {
+  "id": "L47",
+  "c": "L",
+  "h": "01:19:13",
+  "s": 4753,
+  "a": "O governo Bolsonaro \"inventou a escola cívico-militar e não fez\"",
+  "t": "J/H",
+  "v": "Falso",
+  "n": "",
+  "d": "O Decreto 10.004/2019 instituiu o Pecim; o Decreto 11.611, de 19/07/2023, o revogou. Em dez/2022 o MEC relatou 202 escolas e cerca de 120 mil alunos (t)",
+  "f": "Decreto 10.004, Decreto 11.611",
+  "k": "P",
+  "l": [
+   {
+    "t": "Decreto 10.004",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/D10004.htm"
+   },
+   {
+    "t": "Decreto 11.611",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11611.htm"
+   }
+  ]
+ },
+ {
+  "id": "F53",
+  "c": "F",
+  "h": "01:21:12",
+  "s": 4872,
+  "a": "Bolsonaro \"anexou\" (anistiou?) quase 99% das dívidas de estudantes que concluíram o ensino superior",
+  "t": "N/J",
+  "v": "Enganoso",
+  "n": "",
+  "d": "A Lei 14.375/2022 limita o desconto a 77% e só chega a 99% para inscritos no CadÚnico ou beneficiados do auxílio emergencial 2021",
+  "f": "Lei 14.375",
+  "k": "P",
+  "l": [
+   {
+    "t": "Lei 14.375",
+    "u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14375.htm"
+   }
+  ]
+ },
+ {
+  "id": "F54",
+  "c": "F",
+  "h": "01:21:12",
+  "s": 4872,
+  "a": "Bolsonaro deu o maior reajuste da história aos professores, 33%",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Portaria MEC 67/2022: piso de R$ 2.886 para R$ 3.845,63 (+33,24%). Foi o maior da série da Lei do Piso",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F55",
+  "c": "F",
+  "h": "01:21:12",
+  "s": 4872,
+  "a": "Mais de um milhão de crianças não têm vaga em creche",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "PNAD Contínua 2023: 2,3 milhões de crianças de 0 a 3 anos fora da creche por problema de acesso. Em 2025 o atendimento foi de 43,3% (4,5 milhões)",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F56",
+  "c": "F",
+  "h": "01:21:12",
+  "s": 4872,
+  "a": "A nota do Brasil no PISA é \"uma das piores da história\" com o atual governo",
+  "t": "N/C",
+  "v": "Falso",
+  "n": "",
+  "d": "PISA 2022 do Brasil: matemática 379, leitura 410, ciências 403. Em 2009 eram 386, 412 e 405; em 2015, 377, 407 e 401. A OCDE diz que os resultados são \"remarkably stable\" e que 2022 foi \"about the same\" que 2018. O PISA 2025 (set/2026) também ficou igual ao de 2022 (t)",
+  "f": "OCDE",
+  "k": "P",
+  "l": [
+   {
+    "t": "OCDE",
+    "u": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html"
+   }
+  ]
+ },
+ {
+  "id": "F57",
+  "c": "F",
+  "h": "01:24:05",
+  "s": 5045,
+  "a": "Lula é contra reduzir a maioridade penal, contra classificar CV/PCC/milícias como terroristas e a favor das \"saidinhas\"",
+  "t": "A",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Posições; faltou localizar votos e vetos",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F58",
+  "c": "F",
+  "h": "01:24:05",
+  "s": 5045,
+  "a": "Um sargento da PM de Minas foi assassinado por preso que não voltou da saidinha",
+  "t": "H",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Sargento Roger Dias da Cunha (PMMG), baleado em 05/01/2024 em Belo Horizonte por foragido da saidinha de Natal. O cúmplice foi condenado a 13 anos e 7 meses",
+  "f": "D; TJMG",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L48",
+  "c": "L",
+  "h": "01:24:47",
+  "s": 5087,
+  "a": "Flávio, como senador, evitou o julgamento de um policial acusado da morte da menina Ana Clara (5 anos)",
+  "t": "H",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Flávio assinou em 2024 um recurso ao STJ na defesa do PM (rejeitado). O júri de 21/10 foi remarcado para 05/05/2027; que Flávio causou o adiamento é opinião de Freixo, não fato apurado",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F59",
+  "c": "F",
+  "h": "01:25:49",
+  "s": 5149,
+  "a": "A lei antifacção dá pena de até 80 anos e quase integral para chefes",
+  "t": "J",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Lei 15.358/2026, sancionada por Lula em 24/03/2026: \"domínio social estruturado\" tem pena de 20 a 40 anos, é hediondo e exige 70% em regime fechado. O teto de 80 anos não aparece no texto sancionado",
+  "f": "Agência Senado",
+  "k": "P",
+  "l": [
+   {
+    "t": "Agência Senado: Lei Antifacção entra em vigor",
+    "u": "https://www12.senado.leg.br/noticias/materias/2026/03/25/lei-antifaccao-de-combate-ao-crime-organizado-entra-em-vigor"
+   }
+  ]
+ },
+ {
+  "id": "F60",
+  "c": "F",
+  "h": "01:25:49",
+  "s": 5149,
+  "a": "A audiência de custódia foi criada pelo CNJ quando Lewandowski o presidia",
+  "t": "H",
+  "v": "Verdadeiro",
+  "n": "",
+  "d": "Resolução CNJ 213/2015, de dez/2015, em vigor desde 01/02/2016, com Lewandowski na presidência",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F61",
+  "c": "F",
+  "h": "01:25:49",
+  "s": 5149,
+  "a": "O governo diz que ladrão de celular \"não tem que ser preso, é só roubar uma cervejinha\"",
+  "t": "A",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Não localizei origem da frase",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "L49",
+  "c": "L",
+  "h": "01:28:31",
+  "s": 5311,
+  "a": "Flávio dava emprego a mãe e esposa do miliciano Adriano da Nóbrega",
+  "t": "H",
+  "v": "Verdadeiro",
+  "n": "com ressalva",
+  "d": "Raimunda e Danielle estiveram no gabinete na Alerj; Queiroz confirmou ter indicado as duas. O MPRJ as denunciou como funcionárias fantasmas (out/2020). Não achei o desfecho",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L50",
+  "c": "L",
+  "h": "01:32:51",
+  "s": 5571,
+  "a": "O jogador Richard denunciou que Flávio e um advogado tomaram a ilha dele em Angra; o diretor do SPU foi indicado por Flávio",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Richarlison afirma ter investido R$ 10 mi; Flávio diz ter sido só testemunha. Não encontrei o \"coronel\" nem a indicação",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F62",
+  "c": "F",
+  "h": "01:34:03",
+  "s": 5643,
+  "a": "A ação sobre a ilha em Angra transitou em julgado; William é amigo, não sócio; sócio do William é Eugênio Aragão",
+  "t": "H/J",
+  "v": "Não verificável",
+  "n": "",
+  "d": "O jogador Richarlison acusa Flávio e o advogado Willer Tomaz; Tomaz diz que o jogador perdeu em todas as instâncias, inclusive no STJ (2025). Não vi as decisões",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F63",
+  "c": "F",
+  "h": "01:36:12",
+  "s": 5772,
+  "a": "Lula ganhou uma garrafa de uísque Macallan de R$ 500 mil",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Mensagens do advogado de Vorcaro citam um uísque dado a Lula; ele não consta no registro de presentes e Lula diz não lembrar. Nenhuma fonte traz marca ou valor de R$ 500 mil",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L51",
+  "c": "L",
+  "h": "01:37:30",
+  "s": 5850,
+  "a": "Lula \"fez de prisioneiro\" o banqueiro Vorcaro",
+  "t": "H",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Vorcaro foi preso pela PF por ordem do ministro André Mendonça (STF), em nov/2025 e de novo em 04/03/2026. A prisão não é ato do presidente",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F64",
+  "c": "F",
+  "h": "01:38:08",
+  "s": 5888,
+  "a": "O projeto da \"raspagem de balas\" não foi aprovado",
+  "t": "J",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Não localizei o projeto",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F65",
+  "c": "F",
+  "h": "01:38:08",
+  "s": 5888,
+  "a": "Uma dose do uísque (1/10) custaria R$ 50 mil, equivalente a 70 bolsas-família",
+  "t": "N",
+  "v": "Verdadeiro",
+  "n": "cálculo",
+  "d": "R$ 50 mil ÷ benefício médio de R$ 675–683 = 73–74. Depende da premissa de uma garrafa de R$ 500 mil com 10 doses; o valor do uísque não foi verificado (F63)",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L52",
+  "c": "L",
+  "h": "01:38:58",
+  "s": 5938,
+  "a": "Em julho de 2020 Flávio esteve em um barco em Brasília negociando a Covaxin",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Sem fonte",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "L53",
+  "c": "L",
+  "h": "01:38:58",
+  "s": 5938,
+  "a": "Em 08/08/2020 o Brasil chegou a 100 mil mortes; \"no dia que morreu 1.100 pessoas\"",
+  "t": "N",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "O Ministério da Saúde registrou 100.477 mortes acumuladas em 08/08/2020, mas 905 no dia, não 1.100",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L54",
+  "c": "L",
+  "h": "01:39:48",
+  "s": 5988,
+  "a": "Quem pegou R$ 134 milhões do Vorcaro foi Flávio",
+  "t": "H",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Há relato de negociação de R$ 134 mi com Vorcaro para financiar o filme Dark Horse, e a PF abriu inquérito em jul/2026. Receber o dinheiro pessoalmente não foi demonstrado",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F66",
+  "c": "F",
+  "h": "01:40:13",
+  "s": 6013,
+  "a": "A PF concluiu que o filme sobre Bolsonaro não usou dinheiro público e que não houve contrapartida",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Só um portal relata o conteúdo dos autos (Inquérito 5.070, relator André Mendonça); a PF pediu mais 90 dias, então a investigação segue",
+  "f": "(fonte única)",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F67",
+  "c": "F",
+  "h": "01:40:13",
+  "s": 6013,
+  "a": "O áudio de Vorcaro diz que o filme do Lula recebeu R$ 30 milhões \"por fora\", via Instituto Lula",
+  "t": "H",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "A Veja publicou (09/10/2026) um áudio atribuído a Vorcaro e o advogado confirma que a voz é dele. Instituto Lula e produtor negam; a PF diz que Vorcaro não prestou depoimento nesse teor. O conteúdo não está comprovado",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "L55",
+  "c": "L",
+  "h": "01:41:02",
+  "s": 6062,
+  "a": "Vorcaro \"corrompeu a república\" e se envolveu com ministro do STF, deputados, senadores",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Investigação em curso e parcialmente sigilosa",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F68",
+  "c": "F",
+  "h": "01:41:55",
+  "s": 6115,
+  "a": "Assessor de Padilha articulou R$ 10 bilhões de fundos de pensão da Caixa, BB e Correios para o Master, com propina de 10%",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "O áudio da Veja cita Vaccari e Padilha, mas não R$ 10 bi nem esse assessor",
+  "f": "D",
+  "k": "D",
+  "l": []
+ },
+ {
+  "id": "F69",
+  "c": "F",
+  "h": "01:43:57",
+  "s": 6237,
+  "a": "O filho de Lula usou como endereço imóvel de Jonas Suassuna, dono do sítio de Atibaia",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Sem registro de cartório ou documento localizado",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "L56",
+  "c": "L",
+  "h": "01:44:37",
+  "s": 6277,
+  "a": "Lula e a família entregaram ontem os documentos ao TSE; a equipe de Flávio não",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Sem protocolo do TSE localizado",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F70",
+  "c": "F",
+  "h": "01:45:30",
+  "s": 6330,
+  "a": "Lula foi \"condenado por ocultação de patrimônio\"",
+  "t": "J",
+  "v": "Enganoso",
+  "n": "",
+  "d": "O Plenário do STF confirmou (15/04/2021, 8 a 3) a anulação das ações penais de Lula pela incompetência da 13ª Vara de Curitiba, e a Segunda Turma declarou Moro suspeito. Hoje não há condenação válida",
+  "f": "STF",
+  "k": "P",
+  "l": [
+   {
+    "t": "STF",
+    "u": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464261&ori=1"
+   }
+  ]
+ },
+ {
+  "id": "L57",
+  "c": "L",
+  "h": "01:46:14",
+  "s": 6374,
+  "a": "Flávio ganha R$ 46 mil e comprou uma casa de R$ 10 milhões",
+  "t": "N",
+  "v": "Enganoso",
+  "n": "mantido",
+  "d": "O subsídio de R$ 46.366,19 confere (Câmara, vigente desde 01/02/2025). O valor da casa só aparece em reportagens de 2021, que citam compra de R$ 6 milhões (financiamento de R$ 3,1 mi).",
+  "f": "",
+  "k": "P",
+  "l": []
+ },
+ {
+  "id": "L58",
+  "c": "L",
+  "h": "01:46:14",
+  "s": 6374,
+  "a": "Flávio e o amigo se associaram ao crime do Rio de Janeiro",
+  "t": "A",
+  "v": "Não checada",
+  "n": "",
+  "d": "",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F71",
+  "c": "F",
+  "h": "01:47:09",
+  "s": 6429,
+  "a": "Lula prometeu não indicar amigos para o STF e indicou; prometeu tirar sigilo de 100 anos e não tirou",
+  "t": "H",
+  "v": "Não verificável",
+  "n": "",
+  "d": "Não localizei a promessa citada nem o decreto de sigilo",
+  "f": "",
+  "k": "—",
+  "l": []
+ },
+ {
+  "id": "F72",
+  "c": "F",
+  "h": "01:48:26",
+  "s": 6506,
+  "a": "O filho de Lula mora na Espanha, no mesmo bairro de Vini Júnior",
+  "t": "H",
+  "v": "Parcialmente verdadeiro",
+  "n": "",
+  "d": "Reportagens apontam residência em Madri, em um condomínio em La Moraleja. A proximidade com Vini Jr não foi verificada",
+  "f": "D",
+  "k": "D",
+  "l": []
+ }
+]
