@@ -188,6 +188,8 @@ footer{padding:28px 0 60px;color:var(--muted);font-size:.9rem;border-top:1px sol
 <footer>
   <p><strong>Autoria:</strong> <!-- EDITE AQUI --> projeto independente de checagem, feito com o auxílio do assistente de IA Claude (Anthropic). Para sugerir correções, abra uma <em>issue</em> neste repositório.</p>
   <p>Vídeo usado como referência de horário: <a href="https://www.youtube.com/watch?v=9J7FBpQDe5g" rel="noopener">íntegra do debate (DR News Brasil)</a>. Os dados desta página estão em <a href="dados.json">dados.json</a>.</p>
+  <p class="count" id="visitas" hidden style="font-size:.82rem"></p>
+  <p class="count" style="font-size:.78rem;margin:.2em 0 0">A página não usa cookies. O contador guarda no seu navegador só a data da última contagem (no máximo uma por dia) e consulta um serviço externo (abacus.jasoncameron.dev), que recebe seu endereço IP, como em qualquer requisição.</p>
 </footer>
 </div>
 
@@ -355,6 +357,33 @@ document.getElementById("m-todas").addEventListener("click",function(){ setMode(
 document.getElementById("m-veredito").addEventListener("click",function(){ setMode("veredito"); });
 
 renderKpis(); renderBars(); renderSrc(); renderHl(); initSelects(); renderFilters(); renderList(); renderUnchecked();
+})();
+</script>
+<script>
+/* Contador de acessos (Abacus). Conta no máximo 1 vez por dia por navegador.
+   Para não contar as suas visitas, abra o site uma vez com ?nocount no endereço. */
+(function(){
+  var out=document.getElementById("visitas"); if(!out) return;
+  var NS="jc-checagem-debate-2026";
+  var KEY=/github\.io$/.test(location.hostname)?"acessos":"acessos-dev";
+  var today=new Date().toISOString().slice(0,10), skip=false, last=null;
+  try{
+    if(/[?&]nocount(&|=|$)/.test(location.search)) localStorage.setItem("nocount","1");
+    skip=localStorage.getItem("nocount")==="1"; last=localStorage.getItem("ultimoAcesso");
+  }catch(e){}
+  var hit=!skip && last!==today;
+  var ctl=("AbortController" in window)?new AbortController():null;
+  var timer=setTimeout(function(){ if(ctl) ctl.abort(); },6000);
+  fetch("https://abacus.jasoncameron.dev/"+(hit?"hit":"get")+"/"+NS+"/"+KEY,{signal:ctl?ctl.signal:undefined})
+    .then(function(r){ return r.ok?r.json():Promise.reject(); })
+    .then(function(j){
+      if(typeof j.value!=="number") return;
+      out.textContent=j.value.toLocaleString("pt-BR")+(j.value===1?" acesso":" acessos");
+      out.hidden=false;
+      if(hit){ try{ localStorage.setItem("ultimoAcesso",today); }catch(e){} }
+    })
+    .catch(function(){})
+    .then(function(){ clearTimeout(timer); });
 })();
 </script>
 </body>
