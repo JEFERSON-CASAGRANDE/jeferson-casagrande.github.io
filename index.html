@@ -1,319 +1,359 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vôlei 5x1 — Gestão Tática, Rotações & Scout Profissional</title>
-  <meta name="description" content="O aplicativo definitivo para treinadores e analistas de vôlei. Gerencie rotações 5x1, faça scout em tempo real e exporte relatórios em PDF.">
-  
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  
-  <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-
-  <style>
-    body {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-    }
-    .gradient-hero {
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #1e3a8a 100%);
-    }
-    .gradient-card {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checagem do debate Lula x Flávio Bolsonaro (Globo, 23/10/2026)</title>
+<meta name="description" content="124 afirmações do debate presidencial da Globo checadas só em fontes primárias: vereditos, dados oficiais, metodologia e limites.">
+<meta property="og:title" content="Checagem do debate Lula x Flávio Bolsonaro (Globo, 23/10/2026)">
+<meta property="og:description" content="124 afirmações checadas em fontes primárias, com vereditos, fontes e limites explicados.">
+<meta property="og:type" content="article">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231b4b7a'/%3E%3Cpath d='M8 17l5 5 11-12' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f7f6f2; --card:#ffffff; --fg:#1b1d21; --muted:#5a606b; --line:#dedbd2; --accent:#1b4b7a; --accent-fg:#ffffff;
+  --ok:#17653f; --ok-bg:#e1f2e8; --part:#8a5a00; --part-bg:#fbf0d4; --eng:#a3470f; --eng-bg:#fbe5d6; --fal:#a4231a; --fal-bg:#fbe0dd; --nv:#4b5563; --nv-bg:#e9eaed;
+  --focus:#1d6fd6; --radius:12px;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#111315; --card:#1a1d20; --fg:#e9e8e4; --muted:#a4a9b3; --line:#2b3035; --accent:#7fb2e6; --accent-fg:#0d1a28;
+    --ok:#7fd6a3; --ok-bg:#16301f; --part:#f0c870; --part-bg:#33290f; --eng:#f1a67a; --eng-bg:#35210f; --fal:#f2918a; --fal-bg:#391816; --nv:#b5bac4; --nv-bg:#262a2f; --focus:#8bbcff; }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+header.top{padding:40px 0 20px}
+.eyebrow{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+h1{font-size:clamp(1.6rem,4.2vw,2.4rem);line-height:1.15;margin:.35em 0 .4em;letter-spacing:-.01em}
+h2{font-size:1.4rem;margin:0 0 .6em;letter-spacing:-.005em}
+h3{font-size:1.05rem;margin:0 0 .3em}
+.lead{font-size:1.1rem;color:var(--muted);max-width:60ch;margin:0}
+section{padding:28px 0;border-top:1px solid var(--line)}
+.notice{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--part);border-radius:var(--radius);padding:14px 16px;margin:20px 0 0}
+.notice p{margin:.25em 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:18px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px}
+.kpi b{display:block;font-size:1.9rem;line-height:1.1;font-variant-numeric:tabular-nums}
+.kpi span{color:var(--muted);font-size:.9rem}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--card);margin:6px 0 14px}
+.seg button{border:0;background:transparent;color:var(--fg);padding:8px 14px;font:inherit;font-size:.9rem;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--accent-fg);font-weight:600}
+.barrow{margin:14px 0 4px}
+.barrow .who{display:flex;justify-content:space-between;gap:8px;font-weight:600;margin-bottom:6px;flex-wrap:wrap}
+.barrow .who small{color:var(--muted);font-weight:400}
+.bar{display:flex;height:34px;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--nv-bg)}
+.bar i{display:flex;align-items:center;justify-content:center;font-style:normal;font-size:.8rem;font-weight:700;min-width:0;overflow:hidden;white-space:nowrap}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin:10px 0 0;padding:0;list-style:none;font-size:.88rem}
+.legend li{display:flex;align-items:center;gap:6px}
+.sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.v-ok{background:var(--ok-bg);color:var(--ok)} .v-part{background:var(--part-bg);color:var(--part)} .v-eng{background:var(--eng-bg);color:var(--eng)} .v-fal{background:var(--fal-bg);color:var(--fal)} .v-nv{background:var(--nv-bg);color:var(--nv)}
+.sw.v-ok{background:var(--ok)} .sw.v-part{background:var(--part)} .sw.v-eng{background:var(--eng)} .sw.v-fal{background:var(--fal)} .sw.v-nv{background:var(--nv)}
+.bar i.v-ok{background:var(--ok-bg)}
+table.mini{border-collapse:collapse;width:100%;font-size:.92rem;margin-top:8px}
+table.mini th,table.mini td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+table.mini td.n{font-variant-numeric:tabular-nums;text-align:right}
+table.mini th.n{text-align:right}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.hl{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px}
+.hl p{margin:.3em 0}
+.hl .meta{font-size:.82rem;color:var(--muted)}
+.badge{display:inline-block;border-radius:999px;padding:2px 10px;font-size:.8rem;font-weight:700;white-space:nowrap}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:1px 9px;font-size:.78rem;color:var(--muted);white-space:nowrap}
+.filters{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line);margin-bottom:12px}
+.frow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 12px;font:inherit;font-size:.88rem;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--accent);color:var(--accent-fg);border-color:var(--accent);font-weight:600}
+input[type=search],select{font:inherit;font-size:.92rem;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);max-width:100%}
+input[type=search]{flex:1 1 220px;min-width:0}
+.count{color:var(--muted);font-size:.9rem}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--fg);padding:7px 12px;border-radius:8px;font:inherit;font-size:.9rem;cursor:pointer}
+.list{display:grid;gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px}
+.card header{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-bottom:6px}
+.card .id{font-weight:700;font-variant-numeric:tabular-nums}
+.card .claim{margin:.2em 0 .5em;font-size:1.02rem}
+.card .tm{font-size:.85rem}
+.card details{border-top:1px dashed var(--line);margin-top:8px;padding-top:6px}
+.card summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:.92rem}
+.card details p{margin:.5em 0}
+.card ul{margin:.3em 0 .2em;padding-left:1.2em;font-size:.92rem}
+.empty{padding:24px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:var(--radius)}
+dl.defs{display:grid;grid-template-columns:auto 1fr;gap:8px 14px;margin:0}
+dl.defs dt{font-weight:700}
+dl.defs dd{margin:0}
+ol.steps,ul.plain{padding-left:1.2em;margin:.4em 0}
+ol.steps li,ul.plain li{margin:.35em 0}
+footer{padding:28px 0 60px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (max-width:560px){dl.defs{grid-template-columns:1fr}.filters{position:static}}
+@media print{.filters,.seg,.btn{display:none!important}body{background:#fff;color:#000}.card details{display:block}.card details>*{display:block}}
+</style>
 </head>
-<body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-500 selection:text-white">
+<body>
+<!-- EDITE: coloque seu nome/contato no rodapé (procure por "Autoria") -->
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">Checagem de fatos · 2º turno 2026</div>
+  <h1>Debate Lula × Flávio Bolsonaro na Globo (23/10/2026): o que dá para confirmar em fontes oficiais</h1>
+  <p class="lead">124 afirmações verificáveis, checadas direto em bases e documentos oficiais (Banco Central, IBGE, TCU, STF, leis e decretos, entre outros). Sem usar agências de checagem como prova.</p>
+  <div class="notice" role="note">
+    <p><strong>Leia antes de comparar os candidatos.</strong> Os percentuais abaixo <strong>não são um placar de quem mentiu mais</strong>. As afirmações foram escolhidas entre as que têm dado checável, os dois lados têm quantidades e tipos diferentes de afirmação, e um caso a mais ou a menos muda vários pontos percentuais.</p>
+    <p>Trabalho feito com auxílio de inteligência artificial e conferência humana de trechos de áudio. Pode haver erros: confira as fontes antes de citar. Última atualização: 24/10/2026.</p>
+  </div>
+</header>
 
-  <!-- Header / Navigation -->
-  <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-xl bg-blue-600 text-white font-black text-xl flex items-center justify-center shadow-lg shadow-blue-500/30">
-          5x1
-        </div>
-        <div>
-          <span class="text-lg font-bold text-white tracking-tight">Vôlei 5x1</span>
-          <span class="text-xs bg-blue-500/20 text-blue-400 font-semibold px-2 py-0.5 rounded-full ml-2 border border-blue-500/30">Pro</span>
-        </div>
-      </div>
+<section id="resumo" aria-labelledby="h-resumo">
+  <h2 id="h-resumo">Resumo</h2>
+  <div class="kpis" id="kpis"></div>
+  <div class="seg" role="group" aria-label="Base do gráfico">
+    <button type="button" id="m-todas" aria-pressed="true">Todas as checadas</button>
+    <button type="button" id="m-veredito" aria-pressed="false">Só com veredito</button>
+  </div>
+  <div id="bars"></div>
+  <ul class="legend" id="legend"></ul>
+  <h3 style="margin-top:22px">Qualidade das fontes</h3>
+  <table class="mini" id="srcTable"></table>
+</section>
 
-      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
-        <a href="#recursos" class="hover:text-blue-400 transition-colors">Recursos</a>
-        <a href="#tatica" class="hover:text-blue-400 transition-colors">Sistema 5x1</a>
-        <a href="#scout" class="hover:text-blue-400 transition-colors">Scout & PDF</a>
-        <a href="#depoimentos" class="hover:text-blue-400 transition-colors">Depoimentos</a>
-      </nav>
+<section id="destaques" aria-labelledby="h-dest">
+  <h2 id="h-dest">Destaques</h2>
+  <p class="lead" style="margin-bottom:14px">Quatro casos de cada lado em que o veredito foi mais duro, e quatro em que a fala se confirmou.</p>
+  <h3>Onde o dado oficial contradiz ou desmonta a fala</h3>
+  <div class="cols" id="hl-bad" style="margin-bottom:20px"></div>
+  <h3>Onde a fala se confirmou</h3>
+  <div class="cols" id="hl-good"></div>
+</section>
 
-      <div class="flex items-center gap-3">
-        <a href="/" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shadow-lg shadow-blue-600/30 transition-all hover:scale-[1.02] active:scale-[0.98]">
-          Abrir Aplicativo
-        </a>
-      </div>
+<section id="checagens" aria-labelledby="h-chk">
+  <h2 id="h-chk">Todas as checagens</h2>
+  <div class="filters" role="search">
+    <div class="frow" role="group" aria-label="Candidato" id="f-cand"></div>
+    <div class="frow" role="group" aria-label="Veredito" id="f-ver"></div>
+    <div class="frow">
+      <input type="search" id="q" placeholder="Buscar por tema, número ou palavra (ex.: Selic, PISA, saneamento)" aria-label="Buscar">
+      <select id="f-tipo" aria-label="Tipo de afirmação"></select>
+      <select id="f-src" aria-label="Qualidade da fonte"></select>
+      <button type="button" class="btn" id="reset">Limpar filtros</button>
+      <button type="button" class="btn" id="csv">Baixar CSV</button>
     </div>
-  </header>
+    <div class="count" id="count" aria-live="polite"></div>
+  </div>
+  <div class="list" id="list"></div>
+</section>
 
-  <!-- Hero Section -->
-  <section class="relative overflow-hidden gradient-hero pt-20 pb-28 border-b border-slate-800">
-    <!-- Background Glow -->
-    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-[120px] pointer-events-none"></div>
+<section id="metodo" aria-labelledby="h-met">
+  <h2 id="h-met">Como foi feito</h2>
+  <ol class="steps">
+    <li><strong>Texto do debate.</strong> O áudio da íntegra foi transcrito com WhisperX (modelo large-v3) e os locutores foram separados por reconhecimento de voz. A identificação de quem é quem foi confirmada por uma pessoa ouvindo o vídeo.</li>
+    <li><strong>Conferência de áudio.</strong> 21 trechos em que a transcrição tinha dúvida (números, nomes, moeda) foram ouvidos por uma pessoa, e os vereditos afetados foram refeitos.</li>
+    <li><strong>Seleção das afirmações.</strong> Entram fatos que podem ser conferidos: números, datas, leis, votos, citações e comparações. Ficam de fora promessas, opiniões e ataques pessoais.</li>
+    <li><strong>Checagem em fonte primária.</strong> Bases e documentos de origem (Banco Central, IBGE, MDIC, DATASUS, TCU, STF, Planalto, ministérios, Congresso, OCDE). Agências de checagem não foram usadas como prova.</li>
+    <li><strong>Mesmos critérios para os dois lados.</strong> A escala de vereditos foi definida antes e cada linha mostra o dado, a fonte e o raciocínio.</li>
+  </ol>
+  <h3 style="margin-top:20px">Escala de vereditos</h3>
+  <dl class="defs">
+    <dt><span class="badge v-ok">Verdadeiro</span></dt><dd>O dado oficial confirma a fala, dentro de arredondamentos. Quando há ressalva, ela aparece junto.</dd>
+    <dt><span class="badge v-part">Parcialmente verdadeiro</span></dt><dd>Parte da fala se confirma; outra parte erra, exagera ou falta contexto.</dd>
+    <dt><span class="badge v-eng">Enganoso</span></dt><dd>Os números ou fatos existem, mas a conclusão sugerida não se sustenta (bases diferentes, outro período, causa não demonstrada).</dd>
+    <dt><span class="badge v-fal">Falso</span></dt><dd>A fala contradiz o dado oficial.</dd>
+    <dt><span class="badge v-nv">Não verificável</span></dt><dd>Não encontrei fonte oficial acessível. <strong>Não significa que a fala seja falsa.</strong></dd>
+  </dl>
+  <h3 style="margin-top:20px">Qualidade da fonte</h3>
+  <dl class="defs">
+    <dt><span class="pill">Fonte oficial</span></dt><dd>Consultei diretamente o documento ou a base oficial (lei, decreto, API do Banco Central, acórdão, nota de órgão público).</dd>
+    <dt><span class="pill">Via reportagem</span></dt><dd>O dado oficial só apareceu citado em reportagem, e não abri o documento original. Esses casos têm menos confiança.</dd>
+    <dt><span class="pill">Sem fonte</span></dt><dd>Nenhuma fonte acessível; quase sempre "não verificável".</dd>
+  </dl>
+</section>
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-semibold mb-8">
-        <i data-lucide="zap" class="w-4 h-4"></i>
-        <span>Plataforma completa de Inteligência Tática para Voleibol</span>
-      </div>
+<section id="limites" aria-labelledby="h-lim">
+  <h2 id="h-lim">Limites</h2>
+  <ul class="plain">
+    <li><strong>Não é um placar.</strong> A amostra não é aleatória e os candidatos têm números de afirmações bem diferentes.</li>
+    <li><strong>Confiança estimada de 80% a 85%</strong> para o conjunto dos vereditos com resultado. É uma estimativa subjetiva, e não uma medida estatística. A confiança é maior nas checagens com fonte oficial consultada.</li>
+    <li><strong>Fronteiras entre categorias são julgamento.</strong> A diferença entre "parcialmente verdadeiro" e "enganoso" admite discordância; a direção (verdadeiro ou falso) é mais firme que o rótulo exato.</li>
+    <li><strong>Casos em investigação</strong> (Banco Master/Vorcaro, ilha em Angra, caso Ana Clara, filme Dark Horse) dependem de reportagens e de processos em andamento. Quase todos ficaram como "não verificável" ou "parcialmente verdadeiro".</li>
+    <li><strong>Datas.</strong> Os dados refletem o que estava disponível até 24/10/2026. Números oficiais podem ser revisados depois.</li>
+    <li><strong>Horários</strong> apontam o início do trecho de fala no vídeo da DR News (canal que republica a transmissão), e não necessariamente o segundo exato da frase.</li>
+  </ul>
+  <h3 style="margin-top:18px">Cinco afirmações não foram checadas</h3>
+  <p style="margin:.3em 0" id="unchecked"></p>
+</section>
 
-      <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-none mb-6 max-w-4xl mx-auto">
-        Acelere a Gestão Tática e o <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-300 to-indigo-300">Scout em Tempo Real</span>
-      </h1>
+<footer>
+  <p><strong>Autoria:</strong> <!-- EDITE AQUI --> projeto independente de checagem, feito com o auxílio do assistente de IA Claude (Anthropic). Para sugerir correções, abra uma <em>issue</em> neste repositório.</p>
+  <p>Vídeo usado como referência de horário: <a href="https://www.youtube.com/watch?v=9J7FBpQDe5g" rel="noopener">íntegra do debate (DR News Brasil)</a>. Os dados desta página estão em <a href="dados.json">dados.json</a>.</p>
+</footer>
+</div>
 
-      <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
-        Controle rotações do sistema 5x1, side-outs, erros coletivos e métricas individuais diretamente da quadra. Exporte relatórios em PDF instantaneamente.
-      </p>
+<script id="dados" type="application/json">__DATA__</script>
+<script>
+(function(){
+"use strict";
+var DATA = JSON.parse(document.getElementById("dados").textContent);
+var VERD = ["Verdadeiro","Parcialmente verdadeiro","Enganoso","Falso","Não verificável"];
+var CLS = {"Verdadeiro":"v-ok","Parcialmente verdadeiro":"v-part","Enganoso":"v-eng","Falso":"v-fal","Não verificável":"v-nv","Não checada":"v-nv"};
+var CAND = {F:"Flávio Bolsonaro", L:"Lula"};
+var CAND_SHORT = {F:"Flávio", L:"Lula"};
+var VIDEO = "https://www.youtube.com/watch?v=9J7FBpQDe5g";
+var CHK = DATA.filter(function(d){return d.v!=="Não checada";});
+var state = {c:"", v:{}, tipo:"", src:"", q:"", mode:"todas"};
 
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
-        <a href="/" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-base shadow-xl shadow-blue-600/30 transition-all flex items-center justify-center gap-2 hover:scale-[1.02]">
-          <span>Acessar o App Gratuitamente</span>
-          <i data-lucide="arrow-right" class="w-5 h-5"></i>
-        </a>
-        <a href="#recursos" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-base border border-slate-700 transition-all">
-          Ver Recursos
-        </a>
-      </div>
+function el(tag, attrs, kids){
+  var e = document.createElement(tag);
+  if(attrs) for(var k in attrs){ if(k==="class") e.className=attrs[k]; else if(k==="text") e.textContent=attrs[k]; else e.setAttribute(k,attrs[k]); }
+  (kids||[]).forEach(function(c){ if(c==null) return; e.appendChild(typeof c==="string"?document.createTextNode(c):c); });
+  return e;
+}
+function pct(n,d){ return d? Math.round(n*100/d) : 0; }
+function qt(s){ return String(s).replace(/"([^"]*)"/g,"‘$1’"); }
+function fmtTime(s){ var h=Math.floor(s/3600), m=Math.floor(s%3600/60), x=s%60; return (h<10?"0":"")+h+":"+(m<10?"0":"")+m+":"+(x<10?"0":"")+x; }
+function tipoGrupo(t){ var a=t.split("/")[0]; if(a==="N") return "Numérica"; if(a==="H"||a==="J") return "Histórica ou jurídica"; return "Citação ou comparação"; }
+function srcLabel(k){ return k==="P"?"Fonte oficial":(k==="D"?"Via reportagem":"Sem fonte"); }
+function count(list,fn){ var o={}; list.forEach(function(d){ var k=fn(d); o[k]=(o[k]||0)+1; }); return o; }
 
-      <!-- App Preview Graphic -->
-      <div class="mt-16 max-w-5xl mx-auto rounded-2xl p-2 bg-gradient-to-b from-slate-700/50 to-slate-900/50 border border-slate-700/60 shadow-2xl backdrop-blur-xl">
-        <div class="rounded-xl overflow-hidden bg-slate-900 border border-slate-800 p-4 sm:p-8 text-left">
-          <div class="flex items-center justify-between pb-4 mb-6 border-b border-slate-800">
-            <div class="flex items-center gap-2">
-              <span class="w-3 h-3 rounded-full bg-rose-500"></span>
-              <span class="w-3 h-3 rounded-full bg-amber-500"></span>
-              <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
-              <span class="text-xs text-slate-400 font-mono ml-2">app.volei5x1.com — Interface Tática</span>
-            </div>
-            <span class="text-xs font-semibold px-2.5 py-1 bg-emerald-500/10 text-emerald-400 rounded-md border border-emerald-500/20 flex items-center gap-1">
-              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-              Partida Ativa
-            </span>
-          </div>
+/* ---- resumo ---- */
+function renderKpis(){
+  var f=CHK.filter(function(d){return d.c==="F";}).length, l=CHK.length-f;
+  var p=CHK.filter(function(d){return d.k==="P";}).length;
+  var box=document.getElementById("kpis"); box.textContent="";
+  [[CHK.length,"afirmações checadas"],[f,"de Flávio Bolsonaro"],[l,"de Lula"],[pct(p,CHK.length)+"%","com fonte oficial consultada"]].forEach(function(x){
+    box.appendChild(el("div",{class:"kpi"},[el("b",{text:String(x[0])}),el("span",{text:x[1]})]));
+  });
+}
+function renderBars(){
+  var wrap=document.getElementById("bars"); wrap.textContent="";
+  ["F","L"].forEach(function(c){
+    var arr=CHK.filter(function(d){return d.c===c;});
+    var vs = state.mode==="veredito" ? VERD.slice(0,4) : VERD;
+    var base = arr.filter(function(d){return vs.indexOf(d.v)>=0;});
+    var cnt=count(base,function(d){return d.v;});
+    var bar=el("div",{class:"bar",role:"img","aria-label":CAND[c]+": "+vs.map(function(v){return (cnt[v]||0)+" "+v.toLowerCase();}).join(", ")});
+    vs.forEach(function(v){ var n=cnt[v]||0; if(!n) return;
+      var seg=el("i",{class:CLS[v],title:v+": "+n+" ("+pct(n,base.length)+"%)",text:pct(n,base.length)>=7?pct(n,base.length)+"%":""});
+      seg.style.width=(n*100/base.length)+"%"; bar.appendChild(seg); });
+    var row=el("div",{class:"barrow"},[
+      el("div",{class:"who"},[el("span",{text:CAND[c]}),el("small",{text:base.length+" afirmações"+(state.mode==="veredito"?" com veredito":"")})]),bar]);
+    wrap.appendChild(row);
+    var small=el("div",{class:"count",style:"margin-top:4px"},[VERD.filter(function(v){return vs.indexOf(v)>=0;}).map(function(v){return (cnt[v]||0)+" "+v.toLowerCase();}).join(" · ")]);
+    wrap.appendChild(small);
+  });
+  var lg=document.getElementById("legend"); lg.textContent="";
+  (state.mode==="veredito"?VERD.slice(0,4):VERD).forEach(function(v){ lg.appendChild(el("li",null,[el("span",{class:"sw "+CLS[v]}),v])); });
+}
+function renderSrc(){
+  var t=document.getElementById("srcTable"); t.textContent="";
+  var head=el("tr",null,[el("th",{text:"Fonte"}),el("th",{class:"n",text:"Todas"}),el("th",{class:"n",text:"Só com veredito"})]);
+  t.appendChild(el("thead",null,[head]));
+  var body=el("tbody");
+  var withV=CHK.filter(function(d){return d.v!=="Não verificável";});
+  ["P","D","—"].forEach(function(k){
+    var a=CHK.filter(function(d){return d.k===k;}).length, b=withV.filter(function(d){return d.k===k;}).length;
+    body.appendChild(el("tr",null,[el("td",{text:srcLabel(k)}),el("td",{class:"n",text:a+" ("+pct(a,CHK.length)+"%)"}),el("td",{class:"n",text:b+" ("+pct(b,withV.length)+"%)"})]));
+  });
+  t.appendChild(body);
+}
 
-          <!-- Mock Court Display -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="md:col-span-2 bg-blue-950/40 border border-blue-900/50 rounded-xl p-5 flex flex-col justify-between min-h-[260px]">
-              <div>
-                <div class="flex justify-between items-center mb-4">
-                  <span class="text-xs font-bold text-blue-300 uppercase tracking-wider">Quadra Tática & Posições</span>
-                  <span class="text-xs font-bold text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded border border-amber-400/20">Levantador na P1 (Entrada de Rede P4)</span>
-                </div>
-                <div class="grid grid-cols-3 gap-3 text-center">
-                  <div class="p-3 bg-slate-800/80 rounded-lg border border-slate-700">
-                    <span class="text-[10px] text-slate-400 block font-bold">P4 (Ataque)</span>
-                    <span class="text-sm font-extrabold text-white">Ponteiro 1 (#7)</span>
-                  </div>
-                  <div class="p-3 bg-slate-800/80 rounded-lg border border-slate-700">
-                    <span class="text-[10px] text-slate-400 block font-bold">P3 (Rede)</span>
-                    <span class="text-sm font-extrabold text-white">Central 1 (#12)</span>
-                  </div>
-                  <div class="p-3 bg-slate-800/80 rounded-lg border border-slate-700">
-                    <span class="text-[10px] text-slate-400 block font-bold">P2 (Saída)</span>
-                    <span class="text-sm font-extrabold text-white">Oposto (#9)</span>
-                  </div>
-                  <div class="p-3 bg-slate-800/80 rounded-lg border border-slate-700">
-                    <span class="text-[10px] text-slate-400 block font-bold">P5 (Defesa)</span>
-                    <span class="text-sm font-extrabold text-white">Ponteiro 2 (#4)</span>
-                  </div>
-                  <div class="p-3 bg-slate-800/80 rounded-lg border border-slate-700">
-                    <span class="text-[10px] text-slate-400 block font-bold">P6 (Defesa)</span>
-                    <span class="text-sm font-extrabold text-blue-400">Líbero (#10)</span>
-                  </div>
-                  <div class="p-3 bg-blue-600/30 rounded-lg border border-blue-500/50">
-                    <span class="text-[10px] text-blue-300 block font-bold">P1 (Saque)</span>
-                    <span class="text-sm font-extrabold text-white">Levantador (#1)</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+/* ---- destaques ---- */
+function firstSentence(s,max){
+  var parts=(s.match(/.+?\.(?=\s|$)/g)||[s]).map(function(x){return x.trim();}), out="";
+  for(var i=0;i<parts.length;i++){ if(out && (out+" "+parts[i]).length>max) break; out=out?out+" "+parts[i]:parts[i]; }
+  return out.length>max? out.slice(0,max-1).replace(/\s+\S*$/,"")+"…" : out;
+}
+function hlCard(id){
+  var d=DATA.filter(function(x){return x.id===id;})[0]; if(!d) return null;
+  var c=el("div",{class:"hl"});
+  c.appendChild(el("p",{class:"meta"},[CAND_SHORT[d.c]+" · "+d.id+" · ",el("span",{class:"badge "+CLS[d.v],text:d.v+(d.n?" ("+d.n+")":"")})]));
+  c.appendChild(el("p",null,[el("strong",{text:"“"+qt(d.a)+"”"})]));
+  c.appendChild(el("p",{text:firstSentence(d.d,320)}));
+  var a=el("a",{href:"#checagens",text:"Ver detalhes"}); a.addEventListener("click",function(){ resetFilters(); document.getElementById("q").value=d.id; state.q=d.id.toLowerCase(); renderList(); });
+  c.appendChild(el("p",{class:"meta"},[a]));
+  return c;
+}
+function renderHl(){
+  var bad=["F56","F15","F01","F70","L34","L47","L20","L44"], good=["F46","F37","L11","L10"].concat(["F36","L35"]);
+  var b=document.getElementById("hl-bad"), g=document.getElementById("hl-good"); b.textContent=""; g.textContent="";
+  bad.forEach(function(i){ var x=hlCard(i); if(x) b.appendChild(x); });
+  ["F46","F36","L11","L10"].forEach(function(i){ var x=hlCard(i); if(x) g.appendChild(x); });
+}
 
-            <!-- Mock Stats -->
-            <div class="bg-slate-800/50 border border-slate-700/60 rounded-xl p-5 flex flex-col justify-between">
-              <div>
-                <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Scout Rápido do Set</h4>
-                <div class="space-y-3">
-                  <div>
-                    <div class="flex justify-between text-xs mb-1">
-                      <span class="text-slate-300">Ataques Eficientes</span>
-                      <span class="font-bold text-emerald-400">68%</span>
-                    </div>
-                    <div class="w-full bg-slate-700 h-1.5 rounded-full overflow-hidden">
-                      <div class="bg-emerald-400 h-full w-[68%]"></div>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="flex justify-between text-xs mb-1">
-                      <span class="text-slate-300">Passe A/B (Aproveitamento)</span>
-                      <span class="font-bold text-blue-400">82%</span>
-                    </div>
-                    <div class="w-full bg-slate-700 h-1.5 rounded-full overflow-hidden">
-                      <div class="bg-blue-400 h-full w-[82%]"></div>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="flex justify-between text-xs mb-1">
-                      <span class="text-slate-300">Pontos de Bloqueio</span>
-                      <span class="font-bold text-indigo-400">7 Pts</span>
-                    </div>
-                    <div class="w-full bg-slate-700 h-1.5 rounded-full overflow-hidden">
-                      <div class="bg-indigo-400 h-full w-[55%]"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="pt-4 border-t border-slate-700/60 flex items-center justify-between text-xs text-slate-400">
-                <span>Relatório PDF Pronto</span>
-                <i data-lucide="file-text" class="w-4 h-4 text-emerald-400"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+/* ---- lista ---- */
+function matches(d){
+  if(d.v==="Não checada") return false;
+  if(state.c && d.c!==state.c) return false;
+  var sel=Object.keys(state.v).filter(function(k){return state.v[k];});
+  if(sel.length && sel.indexOf(d.v)<0) return false;
+  if(state.tipo && tipoGrupo(d.t)!==state.tipo) return false;
+  if(state.src && d.k!==state.src) return false;
+  if(state.q){ var hay=(d.id+" "+d.a+" "+d.d+" "+d.f+" "+d.v).toLowerCase(); if(hay.indexOf(state.q)<0) return false; }
+  return true;
+}
+function card(d){
+  var art=el("article",{class:"card",id:"c-"+d.id.replace("/","-")});
+  var head=el("header");
+  head.appendChild(el("span",{class:"id",text:d.id}));
+  head.appendChild(el("span",{class:"pill",text:CAND_SHORT[d.c]}));
+  head.appendChild(el("span",{class:"badge "+CLS[d.v],text:d.v+(d.n?" · "+d.n:"")}));
+  head.appendChild(el("span",{class:"pill",text:srcLabel(d.k)}));
+  head.appendChild(el("span",{class:"pill",text:tipoGrupo(d.t)}));
+  art.appendChild(head);
+  art.appendChild(el("p",{class:"claim",text:"“"+qt(d.a)+"”"}));
+  var tm=el("a",{class:"tm",href:VIDEO+"&t="+d.s+"s",target:"_blank",rel:"noopener",text:"▶ "+fmtTime(d.s)+" no vídeo"});
+  art.appendChild(el("div",null,[tm]));
+  var det=el("details"); det.appendChild(el("summary",{text:"Dado oficial, fonte e raciocínio"}));
+  det.appendChild(el("p",{text:d.d||"Sem dado oficial acessível."}));
+  if(d.f) det.appendChild(el("p",{class:"count",text:"Fonte: "+d.f}));
+  if(d.l && d.l.length){ var ul=el("ul"); var seen={}; d.l.forEach(function(l){ if(seen[l.u]) return; seen[l.u]=1; ul.appendChild(el("li",null,[el("a",{href:l.u,target:"_blank",rel:"noopener noreferrer",text:l.t})])); }); det.appendChild(ul); }
+  art.appendChild(det);
+  return art;
+}
+function renderList(){
+  var list=document.getElementById("list"); list.textContent="";
+  var rows=DATA.filter(matches);
+  document.getElementById("count").textContent=rows.length+" de "+CHK.length+" afirmações";
+  if(!rows.length){ list.appendChild(el("div",{class:"empty",text:"Nenhuma afirmação com esses filtros."})); return; }
+  var frag=document.createDocumentFragment(); rows.forEach(function(d){ frag.appendChild(card(d)); }); list.appendChild(frag);
+}
+function chip(label,pressed,fn){ var b=el("button",{type:"button",class:"chip","aria-pressed":pressed?"true":"false",text:label}); b.addEventListener("click",fn); return b; }
+function renderFilters(){
+  var fc=document.getElementById("f-cand"); fc.textContent="";
+  [["","Todos"],["F","Flávio Bolsonaro"],["L","Lula"]].forEach(function(x){ fc.appendChild(chip(x[1],state.c===x[0],function(){ state.c=x[0]; renderFilters(); renderList(); })); });
+  var fv=document.getElementById("f-ver"); fv.textContent="";
+  VERD.forEach(function(v){ fv.appendChild(chip(v,!!state.v[v],function(){ state.v[v]=!state.v[v]; renderFilters(); renderList(); })); });
+}
+function resetFilters(){ state.c=""; state.v={}; state.tipo=""; state.src=""; state.q=""; document.getElementById("q").value=""; document.getElementById("f-tipo").value=""; document.getElementById("f-src").value=""; renderFilters(); renderList(); }
+function initSelects(){
+  var t=document.getElementById("f-tipo"); [["","Todos os tipos"],["Numérica","Numéricas"],["Histórica ou jurídica","Históricas ou jurídicas"],["Citação ou comparação","Citações ou comparações"]].forEach(function(x){ t.appendChild(el("option",{value:x[0],text:x[1]})); });
+  var s=document.getElementById("f-src"); [["","Todas as fontes"],["P","Fonte oficial"],["D","Via reportagem"],["—","Sem fonte"]].forEach(function(x){ s.appendChild(el("option",{value:x[0],text:x[1]})); });
+  t.addEventListener("change",function(){ state.tipo=t.value; renderList(); });
+  s.addEventListener("change",function(){ state.src=s.value; renderList(); });
+  document.getElementById("q").addEventListener("input",function(e){ state.q=e.target.value.trim().toLowerCase(); renderList(); });
+  document.getElementById("reset").addEventListener("click",resetFilters);
+  document.getElementById("csv").addEventListener("click",downloadCsv);
+}
+function downloadCsv(){
+  var cols=["id","candidato","horario","afirmacao","tipo","veredito","observacao","dado_oficial","fonte","qualidade_da_fonte","links"];
+  function q(s){ s=String(s==null?"":s); return '"'+s.replace(/"/g,'""')+'"'; }
+  var lines=[cols.join(",")];
+  DATA.forEach(function(d){ lines.push([d.id,CAND[d.c],fmtTime(d.s),d.a,d.t,d.v,d.n,d.d,d.f,srcLabel(d.k),(d.l||[]).map(function(l){return l.u;}).join(" ")].map(q).join(",")); });
+  var blob=new Blob(["﻿"+lines.join("\r\n")],{type:"text/csv;charset=utf-8"});
+  var a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="checagem-debate-globo-2026.csv"; document.body.appendChild(a); a.click(); setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); },500);
+}
+function renderUnchecked(){
+  var u=DATA.filter(function(d){return d.v==="Não checada";});
+  var p=document.getElementById("unchecked");
+  p.textContent=u.map(function(d){return d.id+" ("+CAND_SHORT[d.c]+"): “"+qt(d.a)+"”";}).join("; ")+". São comparações ou opiniões sem critério único de checagem; duas delas (L01 e L03) poderiam ser checadas com dados de execução orçamentária.";
+}
+function setMode(m){ state.mode=m; document.getElementById("m-todas").setAttribute("aria-pressed",m==="todas"); document.getElementById("m-veredito").setAttribute("aria-pressed",m==="veredito"); renderBars(); }
+document.getElementById("m-todas").addEventListener("click",function(){ setMode("todas"); });
+document.getElementById("m-veredito").addEventListener("click",function(){ setMode("veredito"); });
 
-  <!-- Features Grid -->
-  <section id="recursos" class="py-24 bg-slate-900 border-b border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-xs font-bold text-blue-400 uppercase tracking-widest mb-3">Recursos Táticos</h2>
-        <p class="text-3xl sm:text-4xl font-extrabold text-white">Tudo o que a sua comissão técnica precisa à beira da quadra</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <!-- Card 1 -->
-        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 border border-blue-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-            <i data-lucide="rotate-cw" class="w-6 h-6"></i>
-          </div>
-          <h3 class="text-xl font-bold text-white mb-3">Rotações 5x1 Automáticas</h3>
-          <p class="text-slate-400 text-sm leading-relaxed">
-            Acompanhe o rodízio em sentido horário, posições táticas (P1 a P6), posições de troca de rede e posicionamento de recepção de saque.
-          </p>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-            <i data-lucide="target" class="w-6 h-6"></i>
-          </div>
-          <h3 class="text-xl font-bold text-white mb-3">Scout Individual & Coletivo</h3>
-          <p class="text-slate-400 text-sm leading-relaxed">
-            Registre saques, ataques, bloqueios, passes e defesas por atleta em poucos toques, além de erros coletivos (invasão, 4 toques, rotação).
-          </p>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-            <i data-lucide="file-text" class="w-6 h-6"></i>
-          </div>
-          <h3 class="text-xl font-bold text-white mb-3">Exportação em PDF</h3>
-          <p class="text-slate-400 text-sm leading-relaxed">
-            Gere relatórios completos e profissionais ao final da partida para compartilhar com comissão técnica e jogadores.
-          </p>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 border border-amber-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-            <i data-lucide="users" class="w-6 h-6"></i>
-          </div>
-          <h3 class="text-xl font-bold text-white mb-3">Gestão de Substituições & Líbero</h3>
-          <p class="text-slate-400 text-sm leading-relaxed">
-            Realize trocas rápidas com banco de reservas e entrada automática do líbero nas posições de fundo de quadra.
-          </p>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-rose-500/10 text-rose-400 border border-rose-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-            <i data-lucide="history" class="w-6 h-6"></i>
-          </div>
-          <h3 class="text-xl font-bold text-white mb-3">Histórico Salvo Localmente</h3>
-          <p class="text-slate-400 text-sm leading-relaxed">
-            Suas partidas são salvas automaticamente e ficam armazenadas com segurança no navegador para consulta posterior.
-          </p>
-        </div>
-
-        <!-- Card 6 -->
-        <div class="p-8 rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500/50 transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 border border-purple-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-            <i data-lucide="undo-2" class="w-6 h-6"></i>
-          </div>
-          <h3 class="text-xl font-bold text-white mb-3">Controle de Desfazer (Undo)</h3>
-          <p class="text-slate-400 text-sm leading-relaxed">
-            Corrija pontos marcados por engano a qualquer instante sem perder o histórico do set nem o controle das rotações.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials / Quote -->
-  <section id="depoimentos" class="py-20 bg-slate-950 border-b border-slate-800">
-    <div class="max-w-4xl mx-auto px-4 text-center">
-      <div class="w-12 h-12 bg-blue-600/20 text-blue-400 rounded-full flex items-center justify-center mx-auto mb-6">
-        <i data-lucide="quote" class="w-6 h-6"></i>
-      </div>
-      <blockquote class="text-2xl sm:text-3xl font-semibold text-slate-100 leading-snug mb-6">
-        &ldquo;O aplicativo facilitou imensamente o acompanhamento tático do 5x1 durante os jogos. Ter o scout rápido e o relatório PDF pronto logo após o término da partida mudou a nossa dinâmica de análise.&rdquo;
-      </blockquote>
-      <div class="text-sm">
-        <div class="font-bold text-white">Comissão Técnica de Voleibol</div>
-        <div class="text-slate-400">Análise de Desempenho & Preparação Tática</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Call To Action -->
-  <section class="py-24 gradient-hero relative">
-    <div class="max-w-5xl mx-auto px-4 text-center relative z-10">
-      <h2 class="text-3xl sm:text-5xl font-extrabold text-white mb-6">Pronto para transformar a tática da sua equipe?</h2>
-      <p class="text-slate-300 text-lg max-w-2xl mx-auto mb-10">
-        Utilize a ferramenta em qualquer smartphone, tablet ou notebook diretamente pelo navegador, sem necessidade de instalação complexa.
-      </p>
-      <a href="/" class="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-extrabold text-lg shadow-xl shadow-blue-600/30 transition-all hover:scale-105">
-        <span>Abrir Aplicativo Agora</span>
-        <i data-lucide="arrow-right" class="w-5 h-5"></i>
-      </a>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-slate-950 border-t border-slate-800 py-12 text-slate-400 text-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
-      <div class="flex items-center gap-3">
-        <div class="w-8 h-8 rounded-lg bg-blue-600 text-white font-black text-sm flex items-center justify-center">
-          5x1
-        </div>
-        <span class="text-white font-bold text-base">Vôlei 5x1 Tático</span>
-      </div>
-
-      <p class="text-xs text-slate-500">
-        &copy; <script>document.write(new Date().getFullYear())</script> Vôlei 5x1. Todos os direitos reservados.
-      </p>
-    </div>
-  </footer>
-
-  <!-- Initialize Lucide Icons -->
-  <script>
-    lucide.createIcons();
-  </script>
+renderKpis(); renderBars(); renderSrc(); renderHl(); initSelects(); renderFilters(); renderList(); renderUnchecked();
+})();
+</script>
 </body>
 </html>
-
