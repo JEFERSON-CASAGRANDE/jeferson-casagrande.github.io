@@ -232,14 +232,14 @@ function renderBars(){
     var vs = state.mode==="veredito" ? VERD.slice(0,4) : VERD;
     var base = arr.filter(function(d){return vs.indexOf(d.v)>=0;});
     var cnt=count(base,function(d){return d.v;});
-    var bar=el("div",{class:"bar",role:"img","aria-label":CAND[c]+": "+vs.map(function(v){return (cnt[v]||0)+" "+v.toLowerCase();}).join(", ")});
+    var bar=el("div",{class:"bar",role:"img","aria-label":CAND[c]+": "+vs.map(function(v){return (cnt[v]||0)+" "+v.toLowerCase()+" ("+pct(cnt[v]||0,base.length)+"%)";}).join(", ")});
     vs.forEach(function(v){ var n=cnt[v]||0; if(!n) return;
       var seg=el("i",{class:CLS[v],title:v+": "+n+" ("+pct(n,base.length)+"%)",text:pct(n,base.length)>=7?pct(n,base.length)+"%":""});
       seg.style.width=(n*100/base.length)+"%"; bar.appendChild(seg); });
     var row=el("div",{class:"barrow"},[
       el("div",{class:"who"},[el("span",{text:CAND[c]}),el("small",{text:base.length+" afirmações"+(state.mode==="veredito"?" com veredito":"")})]),bar]);
     wrap.appendChild(row);
-    var small=el("div",{class:"count",style:"margin-top:4px"},[VERD.filter(function(v){return vs.indexOf(v)>=0;}).map(function(v){return (cnt[v]||0)+" "+v.toLowerCase();}).join(" · ")]);
+    var small=el("div",{class:"count",style:"margin-top:4px"},[VERD.filter(function(v){return vs.indexOf(v)>=0;}).map(function(v){return (cnt[v]||0)+" "+v.toLowerCase()+" ("+pct(cnt[v]||0,base.length)+"%)";}).join(" · ")]);
     wrap.appendChild(small);
   });
   var lg=document.getElementById("legend"); lg.textContent="";
