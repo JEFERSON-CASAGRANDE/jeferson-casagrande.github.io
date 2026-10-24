@@ -8,7 +8,7 @@
   "t": "N",
   "v": "Enganoso",
   "n": "",
-  "d": "O Acórdão do TCU (TC 021.731/2019-5) contou 14.403 contratos \"paralisados\" entre 38.412 obras em cinco bases, com dados de abril–maio de 2018. O painel do TCU de 2023 registra 8.603 (41% de 21.007); em 2020 eram 7.862. As bases são diferentes",
+  "d": "O Acórdão do TCU (TC 021.731/2019-5) contou 14.403 contratos \"paralisados\" entre 38.412 obras em cinco bases, com dados de abril–maio de 2018. O painel do TCU de 2023 registra 8.603 (41% de 21.007); em 2020 eram 7.862. As bases são diferentes. Nota de 24/10/2026: em jul/2026 o TCU passou a separar obras canceladas das paralisadas, e o painel atual mostra 4.215 de 22.414, então as séries antigas não são comparáveis com ele",
   "f": "TCU 2019, TCU 2023",
   "k": "P",
   "l": [
@@ -29,12 +29,17 @@
   "s": 410,
   "a": "Relatório recente do TCU aponta mais de 11.500 obras paralisadas \"do atual governo\"",
   "t": "N",
-  "v": "Parcialmente verdadeiro",
+  "v": "Enganoso",
   "n": "",
-  "d": "TCU: 11.941 paralisadas (dez/2024) e 11.469 de 22.621 (abr/2025). O número é real, mas o painel cobre obras com recursos federais de qualquer origem e período, inclusive herdadas, e não identifica \"do atual governo\". Não achei atualização de 2026",
-  "f": "TCU",
+  "d": "Atualização de 24/10/2026. O painel atual do TCU (extração com dados de abril de 2026; critérios atualizados na sessão de 15/07/2026) mostra 4.215 obras paralisadas (R$ 16,2 bi) entre 22.414 nas bases (18,8%). Os 11.941 (dez/2024) e 11.469 (abr/2025) vinham do critério anterior, que contava obras canceladas como paralisadas. O painel não identifica obras \"do atual governo\". Premissa: o painel não mudou entre 23 e 24/10/2026. A data de divulgação \"30 de julho\" não foi confirmada; as atas do TCU situam a divulgação na sessão de 5/8/2026",
+  "f": "Painel de Obras Paralisadas (TCU)",
   "k": "P",
-  "l": []
+  "l": [
+   {
+    "t": "Painel de Obras Paralisadas (TCU)",
+    "u": "https://paineis.tcu.gov.br/pub/?workspaceId=8bfbd0cc-f2cd-4e1c-8cde-6abfdffea6a8&reportId=013930b6-b989-41c3-bf00-085dc65109de&painel=ObrasParalisadas"
+   }
+  ]
  },
  {
   "id": "L01",
